@@ -1,0 +1,6 @@
+Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/ros2_first_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/ros2_first_test -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test
+Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/ros2_first_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/ros2_first_test -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test
+Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/ros2_first_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/ros2_first_test -- -j2 -l2
+Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/ros2_first_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/ros2_first_test -- -j2 -l2
+Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/ros2_first_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/ros2_first_test
+Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/ros2_first_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/ros2_first_test

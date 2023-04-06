@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000366] (-) JobUnselected: {'identifier': 'ros2_first_test'}
+[0.001196] (Controller) JobQueued: {'identifier': 'Controller', 'dependencies': OrderedDict()}
+[0.002999] (Controller) JobStarted: {'identifier': 'Controller'}
+[0.099211] (-) TimerEvent: {}
+[0.180636] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'cmake'}
+[0.187524] (Controller) Command: {'cmd': ['/usr/bin/cmake', '/home/kouyayamaoka/ros2_ws/src/Controller', '-DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/Controller'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_AGENT_PID', '1056'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws/src/Controller'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kouyayamaoka'), ('JOURNAL_STREAM', '9:34072'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kouyayamaoka'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kouyayamaoka-Inspiron-3180:@/tmp/.ICE-unix/1145,unix/kouyayamaoka-Inspiron-3180:/tmp/.ICE-unix/1145'), ('INVOCATION_ID', 'f68a8a5d7bbe45eb82a387e6a4513e4a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3d2bf454_26b2_4876_900a_ad7df1b0d18e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/opt/ros/foxy')]), 'shell': False}
+[0.201419] (-) TimerEvent: {}
+[0.303149] (-) TimerEvent: {}
+[0.404160] (-) TimerEvent: {}
+[0.504735] (-) TimerEvent: {}
+[0.605616] (-) TimerEvent: {}
+[0.706248] (-) TimerEvent: {}
+[0.807810] (-) TimerEvent: {}
+[0.908434] (-) TimerEvent: {}
+[1.014206] (-) TimerEvent: {}
+[1.034589] (Controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.114511] (-) TimerEvent: {}
+[1.215183] (-) TimerEvent: {}
+[1.315824] (-) TimerEvent: {}
+[1.416440] (-) TimerEvent: {}
+[1.518167] (-) TimerEvent: {}
+[1.584015] (Controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.618316] (-) TimerEvent: {}
+[1.630612] (Controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.719919] (-) TimerEvent: {}
+[1.820544] (-) TimerEvent: {}
+[1.921368] (-) TimerEvent: {}
+[1.999457] (Controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.003882] (Controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.021529] (-) TimerEvent: {}
+[2.122261] (-) TimerEvent: {}
+[2.222889] (-) TimerEvent: {}
+[2.323500] (-) TimerEvent: {}
+[2.336069] (Controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.399302] (Controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.401261] (Controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.417985] (Controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.423667] (-) TimerEvent: {}
+[2.524464] (-) TimerEvent: {}
+[2.625182] (-) TimerEvent: {}
+[2.725808] (-) TimerEvent: {}
+[2.778740] (Controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.783623] (Controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.826213] (-) TimerEvent: {}
+[2.926734] (-) TimerEvent: {}
+[3.027849] (-) TimerEvent: {}
+[3.131794] (-) TimerEvent: {}
+[3.156444] (Controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.227905] (Controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.234295] (-) TimerEvent: {}
+[3.237601] (Controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.289959] (Controller) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.334450] (-) TimerEvent: {}
+[3.420656] (Controller) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.421433] (Controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.434650] (-) TimerEvent: {}
+[3.535297] (-) TimerEvent: {}
+[3.636176] (-) TimerEvent: {}
+[3.737187] (-) TimerEvent: {}
+[3.838093] (-) TimerEvent: {}
+[3.939155] (-) TimerEvent: {}
+[4.040024] (-) TimerEvent: {}
+[4.140924] (-) TimerEvent: {}
+[4.243917] (-) TimerEvent: {}
+[4.344502] (-) TimerEvent: {}
+[4.445566] (-) TimerEvent: {}
+[4.547145] (-) TimerEvent: {}
+[4.651652] (-) TimerEvent: {}
+[4.708233] (Controller) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[4.751852] (-) TimerEvent: {}
+[4.852758] (-) TimerEvent: {}
+[4.953639] (-) TimerEvent: {}
+[5.054307] (-) TimerEvent: {}
+[5.111671] (Controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.154460] (-) TimerEvent: {}
+[5.156400] (Controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.254641] (-) TimerEvent: {}
+[5.355599] (-) TimerEvent: {}
+[5.456359] (-) TimerEvent: {}
+[5.556909] (-) TimerEvent: {}
+[5.586662] (Controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.657131] (-) TimerEvent: {}
+[5.731857] (Controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.757993] (-) TimerEvent: {}
+[5.858559] (-) TimerEvent: {}
+[5.961355] (-) TimerEvent: {}
+[6.069170] (-) TimerEvent: {}
+[6.169760] (-) TimerEvent: {}
+[6.214967] (Controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.269936] (-) TimerEvent: {}
+[6.370495] (-) TimerEvent: {}
+[6.471457] (-) TimerEvent: {}
+[6.574797] (-) TimerEvent: {}
+[6.619863] (Controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.636244] (Controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.648831] (Controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.674978] (-) TimerEvent: {}
+[6.775697] (-) TimerEvent: {}
+[6.876403] (-) TimerEvent: {}
+[6.976959] (-) TimerEvent: {}
+[7.047635] (Controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.048451] (Controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.077116] (-) TimerEvent: {}
+[7.177792] (-) TimerEvent: {}
+[7.279267] (-) TimerEvent: {}
+[7.381487] (-) TimerEvent: {}
+[7.420407] (Controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[7.421792] (Controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[7.482007] (-) TimerEvent: {}
+[7.582655] (-) TimerEvent: {}
+[7.674112] (Controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.679783] (Controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[7.682797] (-) TimerEvent: {}
+[7.783336] (-) TimerEvent: {}
+[7.883910] (-) TimerEvent: {}
+[7.984935] (-) TimerEvent: {}
+[8.060750] (Controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[8.065320] (Controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.085118] (-) TimerEvent: {}
+[8.185817] (-) TimerEvent: {}
+[8.286380] (-) TimerEvent: {}
+[8.387304] (-) TimerEvent: {}
+[8.487902] (-) TimerEvent: {}
+[8.588615] (-) TimerEvent: {}
+[8.689211] (-) TimerEvent: {}
+[8.792343] (-) TimerEvent: {}
+[8.892960] (-) TimerEvent: {}
+[8.994498] (-) TimerEvent: {}
+[9.095074] (-) TimerEvent: {}
+[9.196463] (-) TimerEvent: {}
+[9.238581] (Controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.296632] (-) TimerEvent: {}
+[9.397307] (-) TimerEvent: {}
+[9.497916] (-) TimerEvent: {}
+[9.503327] (Controller) StderrLine: {'line': b'WARNING: Package name "Controller" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[9.598077] (-) TimerEvent: {}
+[9.698689] (-) TimerEvent: {}
+[9.715830] (Controller) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.720888] (Controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.721916] (Controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kouyayamaoka/ros2_ws/src/Controller/include>\n'}
+[9.722432] (Controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.735531] (Controller) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[9.736524] (Controller) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[9.740794] (Controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.753675] (Controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.758122] (Controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[9.771624] (Controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.772409] (Controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.782085] (Controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.798854] (-) TimerEvent: {}
+[9.799703] (Controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.838537] (Controller) StdoutLine: {'line': b'-- Generating done\n'}
+[9.850496] (Controller) StdoutLine: {'line': b'-- Build files have been written to: /home/kouyayamaoka/ros2_ws/src/build/Controller\n'}
+[9.891063] (Controller) CommandEnded: {'returncode': 0}
+[9.898369] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'build'}
+[9.898787] (Controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kouyayamaoka/ros2_ws/src/build/Controller', '--', '-j2', '-l2'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_AGENT_PID', '1056'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws/src/Controller'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kouyayamaoka'), ('JOURNAL_STREAM', '9:34072'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kouyayamaoka'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kouyayamaoka-Inspiron-3180:@/tmp/.ICE-unix/1145,unix/kouyayamaoka-Inspiron-3180:/tmp/.ICE-unix/1145'), ('INVOCATION_ID', 'f68a8a5d7bbe45eb82a387e6a4513e4a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3d2bf454_26b2_4876_900a_ad7df1b0d18e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/opt/ros/foxy')]), 'shell': False}
+[9.901261] (-) TimerEvent: {}
+[10.002291] (-) TimerEvent: {}
+[10.105814] (-) TimerEvent: {}
+[10.215826] (-) TimerEvent: {}
+[10.223535] (Controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nintendo_pro_controller\x1b[0m\n'}
+[10.307600] (Controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o\x1b[0m\n'}
+[10.317885] (-) TimerEvent: {}
+[10.418879] (-) TimerEvent: {}
+[10.458388] (Controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable nintendo_pro_controller\x1b[0m\n'}
+[10.519098] (-) TimerEvent: {}
+[10.620233] (-) TimerEvent: {}
+[10.720844] (-) TimerEvent: {}
+[10.818373] (Controller) StdoutLine: {'line': b'[100%] Built target nintendo_pro_controller\n'}
+[10.821037] (-) TimerEvent: {}
+[10.868472] (Controller) CommandEnded: {'returncode': 0}
+[10.922325] (-) TimerEvent: {}
+[10.977018] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'install'}
+[11.015229] (Controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kouyayamaoka/ros2_ws/src/build/Controller'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_AGENT_PID', '1056'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws/src/Controller'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kouyayamaoka'), ('JOURNAL_STREAM', '9:34072'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kouyayamaoka'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kouyayamaoka-Inspiron-3180:@/tmp/.ICE-unix/1145,unix/kouyayamaoka-Inspiron-3180:/tmp/.ICE-unix/1145'), ('INVOCATION_ID', 'f68a8a5d7bbe45eb82a387e6a4513e4a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3d2bf454_26b2_4876_900a_ad7df1b0d18e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/opt/ros/foxy')]), 'shell': False}
+[11.022774] (-) TimerEvent: {}
+[11.058904] (Controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.062883] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/lib/Controller/nintendo_pro_controller\n'}
+[11.067191] (Controller) StdoutLine: {'line': b'-- Set runtime path of "/home/kouyayamaoka/ros2_ws/src/install/Controller/lib/Controller/nintendo_pro_controller" to ""\n'}
+[11.069498] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/package_run_dependencies/Controller\n'}
+[11.071847] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/parent_prefix_path/Controller\n'}
+[11.074623] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.sh\n'}
+[11.077916] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.dsv\n'}
+[11.081229] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.sh\n'}
+[11.082784] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.dsv\n'}
+[11.084067] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.bash\n'}
+[11.089280] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.sh\n'}
+[11.090755] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.zsh\n'}
+[11.094134] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.dsv\n'}
+[11.095189] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.dsv\n'}
+[11.098307] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/packages/Controller\n'}
+[11.100001] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig.cmake\n'}
+[11.101220] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig-version.cmake\n'}
+[11.102809] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.xml\n'}
+[11.121443] (Controller) CommandEnded: {'returncode': 0}
+[11.123175] (-) TimerEvent: {}
+[11.223707] (-) TimerEvent: {}
+[11.325013] (-) TimerEvent: {}
+[11.418126] (Controller) JobEnded: {'identifier': 'Controller', 'rc': 0}
+[11.420836] (-) EventReactorShutdown: {}

@@ -1,0 +1,79 @@
+[0.188s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/Controller -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/Controller
+[1.033s] -- The C compiler identification is GNU 9.4.0
+[1.581s] -- The CXX compiler identification is GNU 9.4.0
+[1.628s] -- Check for working C compiler: /usr/bin/cc
+[1.997s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.001s] -- Detecting C compiler ABI info
+[2.333s] -- Detecting C compiler ABI info - done
+[2.397s] -- Detecting C compile features
+[2.399s] -- Detecting C compile features - done
+[2.415s] -- Check for working CXX compiler: /usr/bin/c++
+[2.776s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.781s] -- Detecting CXX compiler ABI info
+[3.154s] -- Detecting CXX compiler ABI info - done
+[3.225s] -- Detecting CXX compile features
+[3.235s] -- Detecting CXX compile features - done
+[3.287s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.418s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.419s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.706s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.110s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.154s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.585s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.730s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.617s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.634s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.646s] -- Looking for pthread.h
+[7.045s] -- Looking for pthread.h - found
+[7.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.418s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.419s] -- Looking for pthread_create in pthreads
+[7.671s] -- Looking for pthread_create in pthreads - not found
+[7.677s] -- Looking for pthread_create in pthread
+[8.058s] -- Looking for pthread_create in pthread - found
+[8.063s] -- Found Threads: TRUE  
+[9.236s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.501s] WARNING: Package name "Controller" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[9.713s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.718s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.719s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kouyayamaoka/ros2_ws/src/Controller/include>
+[9.720s] -- Configured cppcheck exclude dirs and/or files: 
+[9.733s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.734s] -- Configured cpplint exclude dirs and/or files: 
+[9.738s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.751s] -- Added test 'lint_cmake' to check CMake code style
+[9.764s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[9.769s] -- Added test 'uncrustify' to check C / C++ code style
+[9.770s] -- Configured uncrustify additional arguments: 
+[9.779s] -- Added test 'xmllint' to check XML markup files
+[9.797s] -- Configuring done
+[9.836s] -- Generating done
+[9.848s] -- Build files have been written to: /home/kouyayamaoka/ros2_ws/src/build/Controller
+[9.894s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/Controller -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/Controller
+[9.897s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2
+[10.221s] [35m[1mScanning dependencies of target nintendo_pro_controller[0m
+[10.305s] [ 50%] [32mBuilding CXX object CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o[0m
+[10.456s] [100%] [32m[1mLinking CXX executable nintendo_pro_controller[0m
+[10.816s] [100%] Built target nintendo_pro_controller
+[10.866s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2
+[11.014s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/Controller
+[11.057s] -- Install configuration: ""
+[11.062s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/lib/Controller/nintendo_pro_controller
+[11.064s] -- Set runtime path of "/home/kouyayamaoka/ros2_ws/src/install/Controller/lib/Controller/nintendo_pro_controller" to ""
+[11.067s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/package_run_dependencies/Controller
+[11.069s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/parent_prefix_path/Controller
+[11.073s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.sh
+[11.075s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.dsv
+[11.079s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.sh
+[11.080s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.dsv
+[11.081s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.bash
+[11.087s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.sh
+[11.088s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.zsh
+[11.092s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.dsv
+[11.092s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.dsv
+[11.096s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/packages/Controller
+[11.097s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig.cmake
+[11.099s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig-version.cmake
+[11.100s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.xml
+[11.119s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/Controller

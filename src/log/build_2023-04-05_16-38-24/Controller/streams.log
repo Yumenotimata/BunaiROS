@@ -1,0 +1,32 @@
+[0.102s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2
+[0.331s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.480s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.419s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.617s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.203s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.441s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.447s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.301s] CMake Error at CMakeLists.txt:31 (install):
+[3.301s]   install TARGETS given target "launch" which does not exist.
+[3.302s] 
+[3.302s] 
+[3.306s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.537s] WARNING: Package name "Controller" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[3.615s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.625s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.627s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kouyayamaoka/ros2_ws/src/Controller/include>
+[3.629s] -- Configured cppcheck exclude dirs and/or files: 
+[3.631s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.631s] -- Configured cpplint exclude dirs and/or files: 
+[3.640s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.644s] -- Added test 'lint_cmake' to check CMake code style
+[3.648s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.657s] -- Added test 'uncrustify' to check C / C++ code style
+[3.659s] -- Configured uncrustify additional arguments: 
+[3.663s] -- Added test 'xmllint' to check XML markup files
+[3.677s] -- Configuring incomplete, errors occurred!
+[3.677s] See also "/home/kouyayamaoka/ros2_ws/src/build/Controller/CMakeFiles/CMakeOutput.log".
+[3.678s] See also "/home/kouyayamaoka/ros2_ws/src/build/Controller/CMakeFiles/CMakeError.log".
+[3.711s] make: *** [Makefile:266: cmake_check_build_system] エラー 1
+[3.714s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2

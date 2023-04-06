@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:41 (file):
+  file INSTALL cannot find
+  "/home/kouyayamaoka/ros2_ws/src/ros2_first_test/TARGETS": No such file or
+  directory.
+
+

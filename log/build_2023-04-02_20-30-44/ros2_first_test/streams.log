@@ -1,0 +1,24 @@
+[0.040s] Invoking command in '/home/kouyayamaoka/ros2_ws/build/ros2_first_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/build/ros2_first_test -- -j2 -l2
+[0.090s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.136s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.559s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.709s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.715s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.718s] -- Added test 'lint_cmake' to check CMake code style
+[0.719s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.722s] -- Added test 'xmllint' to check XML markup files
+[0.727s] -- Configuring done
+[0.738s] -- Generating done
+[0.740s] -- Build files have been written to: /home/kouyayamaoka/ros2_ws/build/ros2_first_test
+[0.787s] Invoked command in '/home/kouyayamaoka/ros2_ws/build/ros2_first_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/build/ros2_first_test -- -j2 -l2
+[0.851s] Invoking command in '/home/kouyayamaoka/ros2_ws/build/ros2_first_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/build/ros2_first_test
+[0.870s] -- Install configuration: ""
+[0.871s] -- Installing: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/launch
+[0.872s] -- Installing: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/launch/first_rviz.launch.py
+[0.874s] CMake Error at cmake_install.cmake:41 (file):
+[0.874s]   file INSTALL cannot find
+[0.874s]   "/home/kouyayamaoka/ros2_ws/src/ros2_first_test/TARGETS": No such file or
+[0.875s]   directory.
+[0.875s] 
+[0.875s] 
+[0.881s] Invoked command in '/home/kouyayamaoka/ros2_ws/build/ros2_first_test' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/build/ros2_first_test

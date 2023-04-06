@@ -1,0 +1,40 @@
+[0.063s] Invoking command in '/home/kouyayamaoka/ros2_ws/build/ros2_first_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/build/ros2_first_test -- -j2 -l2
+[0.334s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.497s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.118s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.271s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.277s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.278s] -- Added test 'lint_cmake' to check CMake code style
+[1.279s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.282s] -- Added test 'xmllint' to check XML markup files
+[1.285s] -- Configuring done
+[1.290s] -- Generating done
+[1.293s] -- Build files have been written to: /home/kouyayamaoka/ros2_ws/build/ros2_first_test
+[1.341s] Invoked command in '/home/kouyayamaoka/ros2_ws/build/ros2_first_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/build/ros2_first_test -- -j2 -l2
+[1.405s] Invoking command in '/home/kouyayamaoka/ros2_ws/build/ros2_first_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/build/ros2_first_test
+[1.425s] -- Install configuration: ""
+[1.426s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/launch
+[1.427s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/launch/first_rviz.launch.py
+[1.428s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/launch/first_gazebo.launch.py
+[1.429s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/urdf
+[1.431s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/urdf/first_robot.urdf
+[1.432s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/rviz
+[1.433s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/rviz/first_robot.rviz
+[1.434s] -- Installing: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/worlds
+[1.435s] -- Installing: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/worlds/basic.world
+[1.437s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ament_index/resource_index/package_run_dependencies/ros2_first_test
+[1.439s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ament_index/resource_index/parent_prefix_path/ros2_first_test
+[1.441s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/environment/ament_prefix_path.sh
+[1.442s] -- Installing: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/environment/ament_prefix_path.dsv
+[1.443s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/environment/path.sh
+[1.444s] -- Installing: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/environment/path.dsv
+[1.445s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/local_setup.bash
+[1.445s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/local_setup.sh
+[1.446s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/local_setup.zsh
+[1.447s] -- Installing: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/local_setup.dsv
+[1.453s] -- Installing: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/package.dsv
+[1.455s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ament_index/resource_index/packages/ros2_first_test
+[1.456s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/cmake/ros2_first_testConfig.cmake
+[1.457s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/cmake/ros2_first_testConfig-version.cmake
+[1.459s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/install/ros2_first_test/share/ros2_first_test/package.xml
+[1.460s] Invoked command in '/home/kouyayamaoka/ros2_ws/build/ros2_first_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/build/ros2_first_test

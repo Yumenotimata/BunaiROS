@@ -1,0 +1,17 @@
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/launch/nintendo_pro_controller.launch.py
+/home/kouyayamaoka/ros2_ws/src/install/Controller/lib/Controller/nintendo_pro_controller
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/package_run_dependencies/Controller
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/parent_prefix_path/Controller
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.sh
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.dsv
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.sh
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.dsv
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.bash
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.sh
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.zsh
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.dsv
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.dsv
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/packages/Controller
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig.cmake
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig-version.cmake
+/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.xml
