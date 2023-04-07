@@ -1,0 +1,12 @@
+[0.110s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2
+[0.355s] [35m[1mScanning dependencies of target nintendo_pro_controller[0m
+[0.544s] [ 50%] [32mBuilding CXX object CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o[0m
+[8.058s] [01m[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:[m[K In member function ‘[01m[Kvoid Controller::controller_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr) const[m[K’:
+[8.059s] [01m[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:19:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpublisher[m[K’; did you mean ‘[01m[KPublisher[m[K’?
+[8.059s]    19 |             publisher_->[01;31m[Kpublisher[m[K(message);
+[8.060s]       |                         [01;31m[K^~~~~~~~~[m[K
+[8.060s]       |                         [32m[KPublisher[m[K
+[15.295s] make[2]: *** [CMakeFiles/nintendo_pro_controller.dir/build.make:63: CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o] エラー 1
+[15.296s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nintendo_pro_controller.dir/all] エラー 2
+[15.296s] make: *** [Makefile:141: all] エラー 2
+[15.306s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2

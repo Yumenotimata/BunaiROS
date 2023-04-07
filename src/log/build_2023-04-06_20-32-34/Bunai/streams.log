@@ -1,0 +1,81 @@
+[0.042s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/Bunai -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/Bunai
+[0.081s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.137s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.598s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.612s] -- Checking for module 'bullet>=2.82'
+[0.674s] --   Found bullet, version 2.88
+[0.966s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.097s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.220s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.324s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.188s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.303s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.328s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.365s] -- Searching for dependencies of ignition-math6
+[2.376s] -- Looking for OGRE...
+[2.379s] -- OGRE_PREFIX_WATCH changed.
+[2.387s] -- Checking for module 'OGRE'
+[2.419s] --   Found OGRE, version 1.9.0
+[2.506s] -- Found Ogre Ghadamon (1.9.0)
+[2.538s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.559s] -- Looking for OGRE_Paging...
+[2.579s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.579s] -- Looking for OGRE_Terrain...
+[2.608s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.608s] -- Looking for OGRE_Property...
+[2.630s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.630s] -- Looking for OGRE_RTShaderSystem...
+[2.651s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.651s] -- Looking for OGRE_Volume...
+[2.671s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.672s] -- Looking for OGRE_Overlay...
+[2.692s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.063s] -- Looking for ignition-math6 -- found version 6.13.0
+[3.073s] -- Looking for ignition-transport8 -- found version 8.4.0
+[3.075s] -- Searching for dependencies of ignition-transport8
+[3.113s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[3.144s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.154s] -- Checking for module 'libzmq >= 4'
+[3.205s] --   Found libzmq , version 4.3.2
+[3.297s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.316s] -- Checking for module 'uuid'
+[3.354s] --   Found uuid, version 2.34.0
+[3.442s] -- Found UUID: TRUE  
+[3.452s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.455s] -- Searching for dependencies of ignition-msgs5
+[3.493s] -- Looking for ignition-math6 -- found version 6.13.0
+[3.510s] -- Checking for module 'tinyxml2'
+[3.551s] --   Found tinyxml2, version 6.2.0
+[3.649s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.658s] -- Looking for ignition-common3 -- found version 3.15.1
+[3.659s] -- Searching for dependencies of ignition-common3
+[3.660s] -- Looking for dlfcn.h - found
+[3.663s] -- Looking for libdl - found
+[3.666s] -- Found DL: TRUE  
+[3.690s] -- Searching for <ignition-common3> component [graphics]
+[3.699s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[3.701s] -- Searching for dependencies of ignition-common3-graphics
+[3.702s] -- Looking for ignition-math6 -- found version 6.13.0
+[3.716s] -- Looking for ignition-fuel_tools4 -- found version 4.8.2
+[3.719s] -- Searching for dependencies of ignition-fuel_tools4
+[3.900s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[3.929s] -- Checking for module 'jsoncpp'
+[3.976s] --   Found jsoncpp, version 1.7.4
+[4.064s] -- Found JSONCPP: TRUE  
+[4.087s] -- Checking for module 'libzip'
+[4.133s] --   Found libzip, version 1.5.1
+[4.223s] -- Found ZIP: TRUE  
+[4.226s] -- Looking for ignition-common3 -- found version 3.15.1
+[4.231s] -- Looking for ignition-math6 -- found version 6.13.0
+[4.234s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[4.242s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[4.242s]   ament_target_dependencies() the passed package name 'rviz' was not found
+[4.242s]   before
+[4.243s] Call Stack (most recent call first):
+[4.243s]   CMakeLists.txt:27 (ament_target_dependencies)
+[4.243s] 
+[4.243s] 
+[4.246s] -- Configuring incomplete, errors occurred!
+[4.246s] See also "/home/kouyayamaoka/ros2_ws/src/build/Bunai/CMakeFiles/CMakeOutput.log".
+[4.246s] See also "/home/kouyayamaoka/ros2_ws/src/build/Bunai/CMakeFiles/CMakeError.log".
+[4.274s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/Bunai -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/Bunai

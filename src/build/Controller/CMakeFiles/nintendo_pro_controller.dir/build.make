@@ -80,17 +80,16 @@ nintendo_pro_controller_EXTERNAL_OBJECTS =
 nintendo_pro_controller: CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o
 nintendo_pro_controller: CMakeFiles/nintendo_pro_controller.dir/build.make
 nintendo_pro_controller: /opt/ros/foxy/lib/librclcpp.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 nintendo_pro_controller: /opt/ros/foxy/lib/liblibstatistics_collector.so
 nintendo_pro_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 nintendo_pro_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
 nintendo_pro_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so
 nintendo_pro_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so
 nintendo_pro_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so
-nintendo_pro_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-nintendo_pro_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
-nintendo_pro_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
-nintendo_pro_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-nintendo_pro_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 nintendo_pro_controller: /opt/ros/foxy/lib/librcl.so
 nintendo_pro_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
 nintendo_pro_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so
@@ -113,6 +112,18 @@ nintendo_pro_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_
 nintendo_pro_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 nintendo_pro_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 nintendo_pro_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libtracetools.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+nintendo_pro_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 nintendo_pro_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 nintendo_pro_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 nintendo_pro_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -125,7 +136,6 @@ nintendo_pro_controller: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 nintendo_pro_controller: /opt/ros/foxy/lib/librcpputils.so
 nintendo_pro_controller: /opt/ros/foxy/lib/librosidl_runtime_c.so
 nintendo_pro_controller: /opt/ros/foxy/lib/librcutils.so
-nintendo_pro_controller: /opt/ros/foxy/lib/libtracetools.so
 nintendo_pro_controller: CMakeFiles/nintendo_pro_controller.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kouyayamaoka/ros2_ws/src/build/Controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nintendo_pro_controller"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nintendo_pro_controller.dir/link.txt --verbose=$(VERBOSE)

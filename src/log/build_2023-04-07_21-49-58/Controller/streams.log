@@ -1,0 +1,31 @@
+[0.077s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2
+[0.234s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.356s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.267s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.451s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.939s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.196s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.202s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.030s] CMake Error at CMakeLists.txt:21 (find_package):
+[3.030s]   By not providing "Findsensor_mesg.cmake" in CMAKE_MODULE_PATH this project
+[3.030s]   has asked CMake to find a package configuration file provided by
+[3.031s]   "sensor_mesg", but CMake did not find one.
+[3.031s] 
+[3.031s]   Could not find a package configuration file provided by "sensor_mesg" with
+[3.032s]   any of the following names:
+[3.032s] 
+[3.033s]     sensor_mesgConfig.cmake
+[3.033s]     sensor_mesg-config.cmake
+[3.033s] 
+[3.034s]   Add the installation prefix of "sensor_mesg" to CMAKE_PREFIX_PATH or set
+[3.034s]   "sensor_mesg_DIR" to a directory containing one of the above files.  If
+[3.034s]   "sensor_mesg" provides a separate development package or SDK, be sure it
+[3.034s]   has been installed.
+[3.035s] 
+[3.039s] 
+[3.040s] -- Configuring incomplete, errors occurred!
+[3.040s] See also "/home/kouyayamaoka/ros2_ws/src/build/Controller/CMakeFiles/CMakeOutput.log".
+[3.040s] See also "/home/kouyayamaoka/ros2_ws/src/build/Controller/CMakeFiles/CMakeError.log".
+[3.079s] make: *** [Makefile:266: cmake_check_build_system] エラー 1
+[3.080s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2

@@ -1,0 +1,148 @@
+[2.840s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'Controller']
+[2.841s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe57e6b82b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['Controller'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe57e6b82b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe57e6b87f0>)
+[3.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.070s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kouyayamaoka/ros2_ws/src'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.222s] Level 1:colcon.colcon_core.package_identification:_identify(Bunai) by extensions ['ignore', 'ignore_ament_install']
+[3.225s] Level 1:colcon.colcon_core.package_identification:_identify(Bunai) by extension 'ignore'
+[3.225s] Level 1:colcon.colcon_core.package_identification:_identify(Bunai) by extension 'ignore_ament_install'
+[3.225s] Level 1:colcon.colcon_core.package_identification:_identify(Bunai) by extensions ['colcon_pkg']
+[3.225s] Level 1:colcon.colcon_core.package_identification:_identify(Bunai) by extension 'colcon_pkg'
+[3.226s] Level 1:colcon.colcon_core.package_identification:_identify(Bunai) by extensions ['colcon_meta']
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(Bunai) by extension 'colcon_meta'
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(Bunai) by extensions ['ros']
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(Bunai) by extension 'ros'
+[3.249s] DEBUG:colcon.colcon_core.package_identification:Package 'Bunai' with type 'ros.ament_cmake' and name 'Bunai'
+[3.253s] Level 1:colcon.colcon_core.package_identification:_identify(Controller) by extensions ['ignore', 'ignore_ament_install']
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(Controller) by extension 'ignore'
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(Controller) by extension 'ignore_ament_install'
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(Controller) by extensions ['colcon_pkg']
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(Controller) by extension 'colcon_pkg'
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(Controller) by extensions ['colcon_meta']
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(Controller) by extension 'colcon_meta'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(Controller) by extensions ['ros']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(Controller) by extension 'ros'
+[3.262s] DEBUG:colcon.colcon_core.package_identification:Package 'Controller' with type 'ros.ament_cmake' and name 'Controller'
+[3.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.268s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_first_test) by extensions ['ignore', 'ignore_ament_install']
+[3.270s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_first_test) by extension 'ignore'
+[3.270s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_first_test) by extension 'ignore_ament_install'
+[3.271s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_first_test) by extensions ['colcon_pkg']
+[3.271s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_first_test) by extension 'colcon_pkg'
+[3.271s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_first_test) by extensions ['colcon_meta']
+[3.271s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_first_test) by extension 'colcon_meta'
+[3.271s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_first_test) by extensions ['ros']
+[3.272s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_first_test) by extension 'ros'
+[3.277s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_first_test' with type 'ros.ament_cmake' and name 'ros2_first_test'
+[3.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.416s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'Bunai' in 'Bunai'
+[3.416s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_first_test' in 'ros2_first_test'
+[3.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.453s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/foxy
+[3.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.211s] Level 5:colcon.colcon_core.verb:set package 'Controller' build argument 'cmake_args' from command line to 'None'
+[4.211s] Level 5:colcon.colcon_core.verb:set package 'Controller' build argument 'cmake_target' from command line to 'None'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'Controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'Controller' build argument 'cmake_clean_cache' from command line to 'False'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'Controller' build argument 'cmake_clean_first' from command line to 'False'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'Controller' build argument 'cmake_force_configure' from command line to 'False'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'Controller' build argument 'ament_cmake_args' from command line to 'None'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'Controller' build argument 'catkin_cmake_args' from command line to 'None'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'Controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.213s] DEBUG:colcon.colcon_core.verb:Building package 'Controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kouyayamaoka/ros2_ws/src/build/Controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kouyayamaoka/ros2_ws/src/install/Controller', 'merge_install': False, 'path': '/home/kouyayamaoka/ros2_ws/src/Controller', 'symlink_install': False, 'test_result_base': None}
+[4.217s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kouyayamaoka/ros2_ws/src/Controller' with build type 'ament_cmake'
+[4.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kouyayamaoka/ros2_ws/src/Controller'
+[4.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2
+[5.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2
+[5.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/Controller
+[5.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Controller)
+[5.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/Controller
+[5.615s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller' for CMake module files
+[5.618s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller' for CMake config files
+[5.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('Controller', 'cmake_prefix_path')
+[5.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/hook/cmake_prefix_path.ps1'
+[5.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/hook/cmake_prefix_path.dsv'
+[5.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/hook/cmake_prefix_path.sh'
+[5.651s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller/lib'
+[5.652s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller/bin'
+[5.652s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller/lib/pkgconfig/Controller.pc'
+[5.654s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller/lib/python3.8/site-packages'
+[5.656s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller/bin'
+[5.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.ps1'
+[5.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.dsv'
+[5.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.sh'
+[5.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.bash'
+[5.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.zsh'
+[5.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kouyayamaoka/ros2_ws/src/install/Controller/share/colcon-core/packages/Controller)
+[5.855s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Controller)
+[5.875s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller' for CMake module files
+[5.884s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller' for CMake config files
+[5.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('Controller', 'cmake_prefix_path')
+[5.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/hook/cmake_prefix_path.ps1'
+[5.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/hook/cmake_prefix_path.dsv'
+[5.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/hook/cmake_prefix_path.sh'
+[5.912s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller/lib'
+[5.912s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller/bin'
+[5.913s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller/lib/pkgconfig/Controller.pc'
+[5.914s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller/lib/python3.8/site-packages'
+[5.917s] Level 1:colcon.colcon_core.environment:checking '/home/kouyayamaoka/ros2_ws/src/install/Controller/bin'
+[5.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.ps1'
+[5.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.dsv'
+[5.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.sh'
+[5.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.bash'
+[5.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.zsh'
+[5.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kouyayamaoka/ros2_ws/src/install/Controller/share/colcon-core/packages/Controller)
+[5.956s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.961s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.007s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.011s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.012s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.153s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.166s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kouyayamaoka/ros2_ws/src/install/local_setup.ps1'
+[6.177s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kouyayamaoka/ros2_ws/src/install/_local_setup_util_ps1.py'
+[6.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kouyayamaoka/ros2_ws/src/install/setup.ps1'
+[6.199s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kouyayamaoka/ros2_ws/src/install/local_setup.sh'
+[6.207s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kouyayamaoka/ros2_ws/src/install/_local_setup_util_sh.py'
+[6.215s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kouyayamaoka/ros2_ws/src/install/setup.sh'
+[6.229s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kouyayamaoka/ros2_ws/src/install/local_setup.bash'
+[6.235s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kouyayamaoka/ros2_ws/src/install/setup.bash'
+[6.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kouyayamaoka/ros2_ws/src/install/local_setup.zsh'
+[6.255s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kouyayamaoka/ros2_ws/src/install/setup.zsh'

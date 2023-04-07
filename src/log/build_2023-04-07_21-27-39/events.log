@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.002372] (-) JobUnselected: {'identifier': 'Bunai'}
+[0.002516] (-) JobUnselected: {'identifier': 'ros2_first_test'}
+[0.002643] (Controller) JobQueued: {'identifier': 'Controller', 'dependencies': OrderedDict()}
+[0.005367] (Controller) JobStarted: {'identifier': 'Controller'}
+[0.094379] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'cmake'}
+[0.100528] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'build'}
+[0.101367] (-) TimerEvent: {}
+[0.105019] (Controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kouyayamaoka/ros2_ws/src/build/Controller', '--', '-j2', '-l2'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_CLIENT', '192.168.80.159 61563 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bc19c59e-c503-4201-a457-82973727fab6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install:/home/kouyayamaoka/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kouyayamaoka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models:/home/user/.gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-230b9b323c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/install/Bunai:/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/home/kouyayamaoka/ros2_ws/src/install/Bunai:/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Controller'), ('SSH_CONNECTION', '192.168.80.159 61563 192.168.80.45 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/install/Bunai:/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/home/kouyayamaoka/ros2_ws/src/install/Bunai:/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/opt/ros/foxy')]), 'shell': False}
+[0.201652] (-) TimerEvent: {}
+[0.305704] (Controller) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.307652] (-) TimerEvent: {}
+[0.409563] (-) TimerEvent: {}
+[0.478952] (Controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.514947] (-) TimerEvent: {}
+[0.616958] (-) TimerEvent: {}
+[0.718929] (-) TimerEvent: {}
+[0.820125] (-) TimerEvent: {}
+[0.921856] (-) TimerEvent: {}
+[1.023077] (-) TimerEvent: {}
+[1.123725] (-) TimerEvent: {}
+[1.224575] (-) TimerEvent: {}
+[1.325363] (-) TimerEvent: {}
+[1.425942] (-) TimerEvent: {}
+[1.529012] (-) TimerEvent: {}
+[1.634068] (-) TimerEvent: {}
+[1.688628] (Controller) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.734220] (-) TimerEvent: {}
+[1.835251] (-) TimerEvent: {}
+[1.902271] (Controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.919959] (Controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.935402] (-) TimerEvent: {}
+[2.036058] (-) TimerEvent: {}
+[2.136683] (-) TimerEvent: {}
+[2.237321] (-) TimerEvent: {}
+[2.338032] (-) TimerEvent: {}
+[2.438894] (-) TimerEvent: {}
+[2.525271] (Controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.539092] (-) TimerEvent: {}
+[2.639730] (-) TimerEvent: {}
+[2.740472] (-) TimerEvent: {}
+[2.799198] (Controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.806904] (Controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.840647] (-) TimerEvent: {}
+[2.941318] (-) TimerEvent: {}
+[3.041979] (-) TimerEvent: {}
+[3.142864] (-) TimerEvent: {}
+[3.243596] (-) TimerEvent: {}
+[3.344611] (-) TimerEvent: {}
+[3.445318] (-) TimerEvent: {}
+[3.545935] (-) TimerEvent: {}
+[3.646607] (-) TimerEvent: {}
+[3.677114] (Controller) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.746788] (-) TimerEvent: {}
+[3.847476] (-) TimerEvent: {}
+[3.948323] (-) TimerEvent: {}
+[4.049166] (-) TimerEvent: {}
+[4.150112] (-) TimerEvent: {}
+[4.250843] (-) TimerEvent: {}
+[4.351832] (-) TimerEvent: {}
+[4.409174] (Controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.451962] (-) TimerEvent: {}
+[4.552538] (-) TimerEvent: {}
+[4.641548] (Controller) StderrLine: {'line': b'WARNING: Package name "Controller" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[4.652746] (-) TimerEvent: {}
+[4.704592] (Controller) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.711750] (Controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.712550] (Controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kouyayamaoka/ros2_ws/src/Controller/include>\n'}
+[4.713632] (Controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.715937] (Controller) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.716579] (Controller) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.723214] (Controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.725130] (Controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.727638] (Controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[4.729781] (Controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.730333] (Controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.731568] (Controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.747098] (Controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.752922] (-) TimerEvent: {}
+[4.794222] (Controller) StdoutLine: {'line': b'-- Generating done\n'}
+[4.801415] (Controller) StdoutLine: {'line': b'-- Build files have been written to: /home/kouyayamaoka/ros2_ws/src/build/Controller\n'}
+[4.853227] (-) TimerEvent: {}
+[4.929224] (Controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nintendo_pro_controller\x1b[0m\n'}
+[4.953296] (-) TimerEvent: {}
+[5.054343] (-) TimerEvent: {}
+[5.110238] (Controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o\x1b[0m\n'}
+[5.154721] (-) TimerEvent: {}
+[5.255465] (-) TimerEvent: {}
+[5.356121] (-) TimerEvent: {}
+[5.456777] (-) TimerEvent: {}
+[5.557558] (-) TimerEvent: {}
+[5.658318] (-) TimerEvent: {}
+[5.665118] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/Joy.hpp: \xe3\x81\x9d\xe3\x81\xae\xe3\x82\x88\xe3\x81\x86\xe3\x81\xaa\xe3\x83\x95\xe3\x82\xa1\xe3\x82\xa4\xe3\x83\xab\xe3\x82\x84\xe3\x83\x87\xe3\x82\xa3\xe3\x83\xac\xe3\x82\xaf\xe3\x83\x88\xe3\x83\xaa\xe3\x81\xaf\xe3\x81\x82\xe3\x82\x8a\xe3\x81\xbe\xe3\x81\x9b\xe3\x82\x93\n'}
+[5.665688] (Controller) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K<sensor_msgs/Joy.hpp>\x1b[m\x1b[K\n'}
+[5.666047] (Controller) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.666721] (Controller) StderrLine: {'line': b'compilation terminated.\n'}
+[5.677938] (Controller) StderrLine: {'line': b'make[2]: *** [CMakeFiles/nintendo_pro_controller.dir/build.make:63: CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[5.678744] (Controller) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nintendo_pro_controller.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[5.679508] (Controller) StderrLine: {'line': b'make: *** [Makefile:141: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[5.702926] (Controller) CommandEnded: {'returncode': 2}
+[5.758500] (-) TimerEvent: {}
+[5.864213] (-) TimerEvent: {}
+[5.967162] (-) TimerEvent: {}
+[5.984964] (Controller) JobEnded: {'identifier': 'Controller', 'rc': 2}
+[5.991025] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+source;share/Bunai/local_setup.bash
+source;share/Bunai/local_setup.dsv
+source;share/Bunai/local_setup.sh
+source;share/Bunai/local_setup.zsh

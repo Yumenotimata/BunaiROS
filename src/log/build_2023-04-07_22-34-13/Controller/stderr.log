@@ -1,0 +1,6 @@
+[01m[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:[m[K In member function ‘[01m[Kvoid Controller::controller_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:14:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<sensor_msgs::msg::Joy_<std::allocator<void> > >[m[K’} [[01;35m[K-Wformat=[m[K]
+   14 |             printf("[01;35m[K%d[m[K\n",joy_msg);
+      |                     [01;35m[K~^[m[K
+      |                      [01;35m[K|[m[K
+      |                      [01;35m[Kint[m[K

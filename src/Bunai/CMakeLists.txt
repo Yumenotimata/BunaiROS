@@ -17,21 +17,22 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rviz REQUIRED)
+
 find_package(Gazebo REQUIRED)
 
 add_executable(estimate src/estimate.cpp)
 target_include_directories(estimate PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
-ament_target_dependencies(
-  estimate
-  "rviz"
-  "Gazebo"
-)
 
-install(TARGETS estimate
-  DESTINATION lib/${PROJECT_NAME})
+
+install(DIRECTORY
+  rviz
+  launch
+  urdf
+  config
+  worlds
+  DESTINATION share/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:21 (find_package):
+  By not providing "Findsensor_megs.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "sensor_megs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "sensor_megs" with
+  any of the following names:
+
+    sensor_megsConfig.cmake
+    sensor_megs-config.cmake
+
+  Add the installation prefix of "sensor_megs" to CMAKE_PREFIX_PATH or set
+  "sensor_megs_DIR" to a directory containing one of the above files.  If
+  "sensor_megs" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+make: *** [Makefile:266: cmake_check_build_system] エラー 1

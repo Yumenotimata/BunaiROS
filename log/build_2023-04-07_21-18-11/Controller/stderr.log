@@ -1,0 +1,7 @@
+[01m[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/Joy.h: そのようなファイルやディレクトリはありません
+    2 | #include [01;31m[K<sensor_msgs/Joy.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/nintendo_pro_controller.dir/build.make:63: CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nintendo_pro_controller.dir/all] エラー 2
+make: *** [Makefile:141: all] エラー 2

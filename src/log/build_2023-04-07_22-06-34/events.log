@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.001010] (-) JobUnselected: {'identifier': 'Bunai'}
+[0.001206] (-) JobUnselected: {'identifier': 'ros2_first_test'}
+[0.001311] (Controller) JobQueued: {'identifier': 'Controller', 'dependencies': OrderedDict()}
+[0.001416] (Controller) JobStarted: {'identifier': 'Controller'}
+[0.097407] (-) TimerEvent: {}
+[0.113494] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'cmake'}
+[0.117146] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'build'}
+[0.119735] (Controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kouyayamaoka/ros2_ws/src/build/Controller', '--', '-j2', '-l2'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_CLIENT', '192.168.80.159 61563 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-41803ece-84f5-459f-8d24-213ea313b994.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install:/home/kouyayamaoka/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kouyayamaoka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models:/home/user/.gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-986e596920.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/home/kouyayamaoka/ros2_ws/src/install/Bunai:/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/install/Bunai:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Controller'), ('SSH_CONNECTION', '192.168.80.159 61563 192.168.80.45 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/home/kouyayamaoka/ros2_ws/src/install/Bunai:/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/install/Bunai:/opt/ros/foxy')]), 'shell': False}
+[0.197646] (-) TimerEvent: {}
+[0.298428] (-) TimerEvent: {}
+[0.399198] (-) TimerEvent: {}
+[0.499772] (-) TimerEvent: {}
+[0.600399] (-) TimerEvent: {}
+[0.703192] (-) TimerEvent: {}
+[0.759232] (Controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nintendo_pro_controller\x1b[0m\n'}
+[0.803345] (-) TimerEvent: {}
+[0.903913] (-) TimerEvent: {}
+[0.923800] (Controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o\x1b[0m\n'}
+[1.004056] (-) TimerEvent: {}
+[1.104654] (-) TimerEvent: {}
+[1.205224] (-) TimerEvent: {}
+[1.308481] (-) TimerEvent: {}
+[1.409874] (-) TimerEvent: {}
+[1.510471] (-) TimerEvent: {}
+[1.611006] (-) TimerEvent: {}
+[1.711562] (-) TimerEvent: {}
+[1.812785] (-) TimerEvent: {}
+[1.913410] (-) TimerEvent: {}
+[2.014040] (-) TimerEvent: {}
+[2.115943] (-) TimerEvent: {}
+[2.216541] (-) TimerEvent: {}
+[2.317224] (-) TimerEvent: {}
+[2.417810] (-) TimerEvent: {}
+[2.518445] (-) TimerEvent: {}
+[2.619000] (-) TimerEvent: {}
+[2.719553] (-) TimerEvent: {}
+[2.820079] (-) TimerEvent: {}
+[2.920651] (-) TimerEvent: {}
+[3.021282] (-) TimerEvent: {}
+[3.121889] (-) TimerEvent: {}
+[3.224035] (-) TimerEvent: {}
+[3.324612] (-) TimerEvent: {}
+[3.425295] (-) TimerEvent: {}
+[3.525883] (-) TimerEvent: {}
+[3.626509] (-) TimerEvent: {}
+[3.727113] (-) TimerEvent: {}
+[3.827793] (-) TimerEvent: {}
+[3.928368] (-) TimerEvent: {}
+[4.029008] (-) TimerEvent: {}
+[4.135474] (-) TimerEvent: {}
+[4.236129] (-) TimerEvent: {}
+[4.336749] (-) TimerEvent: {}
+[4.437448] (-) TimerEvent: {}
+[4.537992] (-) TimerEvent: {}
+[4.638559] (-) TimerEvent: {}
+[4.739207] (-) TimerEvent: {}
+[4.839792] (-) TimerEvent: {}
+[4.940824] (-) TimerEvent: {}
+[5.041705] (-) TimerEvent: {}
+[5.142815] (-) TimerEvent: {}
+[5.243689] (-) TimerEvent: {}
+[5.344564] (-) TimerEvent: {}
+[5.445556] (-) TimerEvent: {}
+[5.547025] (-) TimerEvent: {}
+[5.648867] (-) TimerEvent: {}
+[5.750005] (-) TimerEvent: {}
+[5.850580] (-) TimerEvent: {}
+[5.953928] (-) TimerEvent: {}
+[6.054498] (-) TimerEvent: {}
+[6.155184] (-) TimerEvent: {}
+[6.255754] (-) TimerEvent: {}
+[6.356323] (-) TimerEvent: {}
+[6.456908] (-) TimerEvent: {}
+[6.557508] (-) TimerEvent: {}
+[6.658146] (-) TimerEvent: {}
+[6.758753] (-) TimerEvent: {}
+[6.859428] (-) TimerEvent: {}
+[6.960293] (-) TimerEvent: {}
+[7.060938] (-) TimerEvent: {}
+[7.128707] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:12:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoy\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KJoy\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.129322] (Controller) StderrLine: {'line': b'   12 |         void controller_callback(const sensor_msgs::msg::\x1b[01;31m\x1b[Kjoy\x1b[m\x1b[K::SharedPtr joy_msg)\n'}
+[7.129639] (Controller) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.129960] (Controller) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[KJoy\x1b[m\x1b[K\n'}
+[7.130586] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:12:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kjoy_msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.135150] (Controller) StderrLine: {'line': b'   12 |         void controller_callback(const sensor_msgs::msg::joy::SharedPtr \x1b[01;31m\x1b[Kjoy_msg\x1b[m\x1b[K)\n'}
+[7.135694] (Controller) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.136444] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:12:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kjoy_msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.136984] (Controller) StderrLine: {'line': b'   12 |         void controller_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::msg::joy::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kjoy_msg\x1b[m\x1b[K)\n'}
+[7.137344] (Controller) StderrLine: {'line': b'      |                                 \x1b[34m\x1b[K~\x1b[m\x1b[K                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[7.139566] (Controller) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[7.140452] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:12:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.140915] (Controller) StderrLine: {'line': b'   12 |         void controller_callback(const sensor_msgs::msg::joy::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K joy_msg)\n'}
+[7.141211] (Controller) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.141490] (Controller) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.150795] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:12:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoy_msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.151273] (Controller) StderrLine: {'line': b'   12 |         void controller_callback(const sensor_msgs::msg::joy::SharedPtr \x1b[01;31m\x1b[Kjoy_msg\x1b[m\x1b[K)\n'}
+[7.151553] (Controller) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.152226] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:16:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoy\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KJoy\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.152647] (Controller) StderrLine: {'line': b'   16 |     rclcpp::Subscription<sensor_msgs::msg::\x1b[01;31m\x1b[Kjoy\x1b[m\x1b[K>::SharedPtr subscriber_;\n'}
+[7.152920] (Controller) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.153179] (Controller) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[KJoy\x1b[m\x1b[K\n'}
+[7.153800] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:16:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoy\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KJoy\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.159250] (Controller) StderrLine: {'line': b'   16 |     rclcpp::Subscription<sensor_msgs::msg::\x1b[01;31m\x1b[Kjoy\x1b[m\x1b[K>::SharedPtr subscriber_;\n'}
+[7.159700] (Controller) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.160038] (Controller) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[KJoy\x1b[m\x1b[K\n'}
+[7.160666] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:16:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.161013] (-) TimerEvent: {}
+[7.161303] (Controller) StderrLine: {'line': b'   16 |     rclcpp::Subscription<sensor_msgs::msg::joy\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscriber_;\n'}
+[7.161730] (Controller) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.167181] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:16:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[7.167644] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:16:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.167967] (Controller) StderrLine: {'line': b'   16 |     rclcpp::Subscription<sensor_msgs::msg::joy>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscriber_;\n'}
+[7.168269] (Controller) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.168579] (Controller) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.171573] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:16:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscriber_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.172070] (Controller) StderrLine: {'line': b'   16 |     rclcpp::Subscription<sensor_msgs::msg::joy>::SharedPtr \x1b[01;31m\x1b[Ksubscriber_\x1b[m\x1b[K;\n'}
+[7.172387] (Controller) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.173970] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:17:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[7.174378] (Controller) StderrLine: {'line': b'   17 | }\n'}
+[7.174618] (Controller) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.174857] (Controller) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.188420] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KController::Controller()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.188920] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:9:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscriber_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.189296] (Controller) StderrLine: {'line': b'    9 |             \x1b[01;31m\x1b[Ksubscriber_\x1b[m\x1b[K = this->create->create_subscription<sensor_msgs::msg::joy>("joy",10,std::bind(&Controller::controller_callback,this,_1));\n'}
+[7.189698] (Controller) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.191716] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:9:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Controller\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcreate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.192221] (Controller) StderrLine: {'line': b'    9 |             subscriber_ = this->\x1b[01;31m\x1b[Kcreate\x1b[m\x1b[K->create_subscription<sensor_msgs::msg::joy>("joy",10,std::bind(&Controller::controller_callback,this,_1));\n'}
+[7.192552] (Controller) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.193945] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:9:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoy\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KJoy\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.194439] (Controller) StderrLine: {'line': b'    9 |             subscriber_ = this->create->create_subscription<sensor_msgs::msg::\x1b[01;31m\x1b[Kjoy\x1b[m\x1b[K>("joy",10,std::bind(&Controller::controller_callback,this,_1));\n'}
+[7.194807] (Controller) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.195117] (Controller) StderrLine: {'line': b'      |                                                                               \x1b[32m\x1b[KJoy\x1b[m\x1b[K\n'}
+[7.195458] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:9:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[7.195795] (Controller) StderrLine: {'line': b'    9 |             subscriber_ = this->create->create_subscription<sensor_msgs::msg::joy>(\x1b[01;35m\x1b[K"joy"\x1b[m\x1b[K,10,std::bind(&Controller::controller_callback,this,_1));\n'}
+[7.196059] (Controller) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.199363] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:9:141:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.199819] (Controller) StderrLine: {'line': b'    9 |             subscriber_ = this->create->create_subscription<sensor_msgs::msg::joy>("joy",10,std::bind(&Controller::controller_callback,this,\x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[7.200142] (Controller) StderrLine: {'line': b'      |                                                                                                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.200437] (Controller) StderrLine: {'line': b'      |                                                                                                                                             \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[7.201291] (Controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/context.hpp:19\x1b[m\x1b[K,\n'}
+[7.201661] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18\x1b[m\x1b[K,\n'}
+[7.201904] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:32\x1b[m\x1b[K,\n'}
+[7.202142] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[7.202404] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.202650] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[7.202884] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:1\x1b[m\x1b[K:\n'}
+[7.203177] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:211:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.203471] (Controller) StderrLine: {'line': b'  211 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[7.203763] (Controller) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.261244] (-) TimerEvent: {}
+[7.361927] (-) TimerEvent: {}
+[7.462557] (-) TimerEvent: {}
+[7.563240] (-) TimerEvent: {}
+[7.663842] (-) TimerEvent: {}
+[7.764501] (-) TimerEvent: {}
+[7.865074] (-) TimerEvent: {}
+[7.965689] (-) TimerEvent: {}
+[8.067160] (-) TimerEvent: {}
+[8.167765] (-) TimerEvent: {}
+[8.268444] (-) TimerEvent: {}
+[8.369056] (-) TimerEvent: {}
+[8.470510] (-) TimerEvent: {}
+[8.571110] (-) TimerEvent: {}
+[8.671667] (-) TimerEvent: {}
+[8.772253] (-) TimerEvent: {}
+[8.789853] (Controller) StderrLine: {'line': b'make[2]: *** [CMakeFiles/nintendo_pro_controller.dir/build.make:63: CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[8.800547] (Controller) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nintendo_pro_controller.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[8.800866] (Controller) StderrLine: {'line': b'make: *** [Makefile:141: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[8.801119] (Controller) CommandEnded: {'returncode': 2}
+[8.872674] (-) TimerEvent: {}
+[8.973233] (-) TimerEvent: {}
+[9.052016] (Controller) JobEnded: {'identifier': 'Controller', 'rc': 2}
+[9.060187] (-) EventReactorShutdown: {}

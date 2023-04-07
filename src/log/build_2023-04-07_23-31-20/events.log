@@ -1,0 +1,366 @@
+[0.000000] (-) TimerEvent: {}
+[0.001124] (-) JobUnselected: {'identifier': 'Bunai'}
+[0.004225] (-) JobUnselected: {'identifier': 'ros2_first_test'}
+[0.004372] (Controller) JobQueued: {'identifier': 'Controller', 'dependencies': OrderedDict()}
+[0.004464] (Controller) JobStarted: {'identifier': 'Controller'}
+[0.068201] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'cmake'}
+[0.071040] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'build'}
+[0.075762] (Controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kouyayamaoka/ros2_ws/src/build/Controller', '--', '-j2', '-l2'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_CLIENT', '192.168.80.159 62794 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3d666167-493d-4bfa-abea-f04b683b17ec.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install:/home/kouyayamaoka/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kouyayamaoka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models:/home/user/.gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-230b9b323c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/home/kouyayamaoka/ros2_ws/src/install/Bunai:/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/install/Bunai:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Controller'), ('SSH_CONNECTION', '192.168.80.159 62794 192.168.80.45 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/home/kouyayamaoka/ros2_ws/src/install/Bunai:/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/install/Bunai:/opt/ros/foxy')]), 'shell': False}
+[0.082028] (-) TimerEvent: {}
+[0.183253] (-) TimerEvent: {}
+[0.222552] (Controller) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.283764] (-) TimerEvent: {}
+[0.324709] (Controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.383887] (-) TimerEvent: {}
+[0.484455] (-) TimerEvent: {}
+[0.585082] (-) TimerEvent: {}
+[0.685837] (-) TimerEvent: {}
+[0.786461] (-) TimerEvent: {}
+[0.886971] (-) TimerEvent: {}
+[0.987481] (-) TimerEvent: {}
+[1.088325] (-) TimerEvent: {}
+[1.183596] (Controller) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.188773] (-) TimerEvent: {}
+[1.289634] (-) TimerEvent: {}
+[1.338042] (Controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.352623] (Controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.389795] (-) TimerEvent: {}
+[1.490747] (-) TimerEvent: {}
+[1.591944] (-) TimerEvent: {}
+[1.692798] (-) TimerEvent: {}
+[1.793783] (-) TimerEvent: {}
+[1.800528] (Controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.893941] (-) TimerEvent: {}
+[1.994971] (-) TimerEvent: {}
+[2.020162] (Controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.029504] (Controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.095126] (-) TimerEvent: {}
+[2.196078] (-) TimerEvent: {}
+[2.297303] (-) TimerEvent: {}
+[2.399460] (-) TimerEvent: {}
+[2.500571] (-) TimerEvent: {}
+[2.601594] (-) TimerEvent: {}
+[2.683621] (Controller) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.701756] (-) TimerEvent: {}
+[2.802812] (-) TimerEvent: {}
+[2.903974] (-) TimerEvent: {}
+[3.005056] (-) TimerEvent: {}
+[3.106045] (-) TimerEvent: {}
+[3.163731] (Controller) StdoutLine: {'line': b'-- Found joy: 3.0.1 (/opt/ros/foxy/share/joy/cmake)\n'}
+[3.172925] (Controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.206263] (-) TimerEvent: {}
+[3.307112] (-) TimerEvent: {}
+[3.380783] (Controller) StderrLine: {'line': b'WARNING: Package name "Controller" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[3.407356] (-) TimerEvent: {}
+[3.485365] (Controller) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.489569] (Controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.494830] (Controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kouyayamaoka/ros2_ws/src/Controller/include>\n'}
+[3.495727] (Controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.504013] (Controller) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.504795] (Controller) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.506583] (Controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.507445] (-) TimerEvent: {}
+[3.512051] (Controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.514717] (Controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.519424] (Controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.522681] (Controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.524822] (Controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.534491] (Controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.577519] (Controller) StdoutLine: {'line': b'-- Generating done\n'}
+[3.583833] (Controller) StdoutLine: {'line': b'-- Build files have been written to: /home/kouyayamaoka/ros2_ws/src/build/Controller\n'}
+[3.607633] (-) TimerEvent: {}
+[3.703167] (Controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nintendo_pro_controller\x1b[0m\n'}
+[3.707788] (-) TimerEvent: {}
+[3.809441] (-) TimerEvent: {}
+[3.861534] (Controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o\x1b[0m\n'}
+[3.909579] (-) TimerEvent: {}
+[4.010129] (-) TimerEvent: {}
+[4.110757] (-) TimerEvent: {}
+[4.211326] (-) TimerEvent: {}
+[4.312012] (-) TimerEvent: {}
+[4.412570] (-) TimerEvent: {}
+[4.513212] (-) TimerEvent: {}
+[4.613830] (-) TimerEvent: {}
+[4.714406] (-) TimerEvent: {}
+[4.815219] (-) TimerEvent: {}
+[4.915998] (-) TimerEvent: {}
+[5.016680] (-) TimerEvent: {}
+[5.117537] (-) TimerEvent: {}
+[5.218066] (-) TimerEvent: {}
+[5.318717] (-) TimerEvent: {}
+[5.419260] (-) TimerEvent: {}
+[5.520009] (-) TimerEvent: {}
+[5.621038] (-) TimerEvent: {}
+[5.722473] (-) TimerEvent: {}
+[5.823019] (-) TimerEvent: {}
+[5.924047] (-) TimerEvent: {}
+[6.024806] (-) TimerEvent: {}
+[6.125638] (-) TimerEvent: {}
+[6.232583] (-) TimerEvent: {}
+[6.336557] (-) TimerEvent: {}
+[6.440296] (-) TimerEvent: {}
+[6.543193] (-) TimerEvent: {}
+[6.644128] (-) TimerEvent: {}
+[6.746119] (-) TimerEvent: {}
+[6.847043] (-) TimerEvent: {}
+[6.950611] (-) TimerEvent: {}
+[7.053122] (-) TimerEvent: {}
+[7.157232] (-) TimerEvent: {}
+[7.258042] (-) TimerEvent: {}
+[7.361818] (-) TimerEvent: {}
+[7.462634] (-) TimerEvent: {}
+[7.567569] (-) TimerEvent: {}
+[7.668370] (-) TimerEvent: {}
+[7.769418] (-) TimerEvent: {}
+[7.871396] (-) TimerEvent: {}
+[7.972342] (-) TimerEvent: {}
+[8.073549] (-) TimerEvent: {}
+[8.174536] (-) TimerEvent: {}
+[8.275453] (-) TimerEvent: {}
+[8.376297] (-) TimerEvent: {}
+[8.477664] (-) TimerEvent: {}
+[8.579793] (-) TimerEvent: {}
+[8.680563] (-) TimerEvent: {}
+[8.782719] (-) TimerEvent: {}
+[8.883569] (-) TimerEvent: {}
+[8.985752] (-) TimerEvent: {}
+[9.087550] (-) TimerEvent: {}
+[9.189420] (-) TimerEvent: {}
+[9.290316] (-) TimerEvent: {}
+[9.392902] (-) TimerEvent: {}
+[9.494848] (-) TimerEvent: {}
+[9.597865] (-) TimerEvent: {}
+[9.706370] (-) TimerEvent: {}
+[9.806897] (-) TimerEvent: {}
+[9.907445] (-) TimerEvent: {}
+[10.008004] (-) TimerEvent: {}
+[10.108633] (-) TimerEvent: {}
+[10.209487] (-) TimerEvent: {}
+[10.310219] (-) TimerEvent: {}
+[10.410832] (-) TimerEvent: {}
+[10.511457] (-) TimerEvent: {}
+[10.612013] (-) TimerEvent: {}
+[10.712665] (-) TimerEvent: {}
+[10.813359] (-) TimerEvent: {}
+[10.913885] (-) TimerEvent: {}
+[11.014723] (-) TimerEvent: {}
+[11.115501] (-) TimerEvent: {}
+[11.216661] (-) TimerEvent: {}
+[11.317382] (-) TimerEvent: {}
+[11.418134] (-) TimerEvent: {}
+[11.518910] (-) TimerEvent: {}
+[11.619689] (-) TimerEvent: {}
+[11.720246] (-) TimerEvent: {}
+[11.823921] (-) TimerEvent: {}
+[11.929127] (-) TimerEvent: {}
+[12.032394] (-) TimerEvent: {}
+[12.132986] (-) TimerEvent: {}
+[12.237164] (-) TimerEvent: {}
+[12.344534] (-) TimerEvent: {}
+[12.445956] (-) TimerEvent: {}
+[12.548715] (-) TimerEvent: {}
+[12.649774] (-) TimerEvent: {}
+[12.750601] (-) TimerEvent: {}
+[12.853938] (-) TimerEvent: {}
+[12.954724] (-) TimerEvent: {}
+[13.055568] (-) TimerEvent: {}
+[13.159104] (-) TimerEvent: {}
+[13.261419] (-) TimerEvent: {}
+[13.362763] (-) TimerEvent: {}
+[13.463572] (-) TimerEvent: {}
+[13.564148] (-) TimerEvent: {}
+[13.664893] (-) TimerEvent: {}
+[13.765428] (-) TimerEvent: {}
+[13.866357] (-) TimerEvent: {}
+[13.967040] (-) TimerEvent: {}
+[14.067804] (-) TimerEvent: {}
+[14.168556] (-) TimerEvent: {}
+[14.269293] (-) TimerEvent: {}
+[14.369886] (-) TimerEvent: {}
+[14.470415] (-) TimerEvent: {}
+[14.570958] (-) TimerEvent: {}
+[14.671561] (-) TimerEvent: {}
+[14.775409] (-) TimerEvent: {}
+[14.879427] (-) TimerEvent: {}
+[14.984097] (-) TimerEvent: {}
+[15.087661] (-) TimerEvent: {}
+[15.190707] (-) TimerEvent: {}
+[15.293749] (-) TimerEvent: {}
+[15.396273] (-) TimerEvent: {}
+[15.499144] (-) TimerEvent: {}
+[15.602732] (-) TimerEvent: {}
+[15.708188] (-) TimerEvent: {}
+[15.815482] (-) TimerEvent: {}
+[15.920151] (-) TimerEvent: {}
+[16.024421] (-) TimerEvent: {}
+[16.131621] (-) TimerEvent: {}
+[16.234449] (-) TimerEvent: {}
+[16.334969] (-) TimerEvent: {}
+[16.435526] (-) TimerEvent: {}
+[16.536150] (-) TimerEvent: {}
+[16.636695] (-) TimerEvent: {}
+[16.737243] (-) TimerEvent: {}
+[16.837807] (-) TimerEvent: {}
+[16.938408] (-) TimerEvent: {}
+[17.038916] (-) TimerEvent: {}
+[17.139461] (-) TimerEvent: {}
+[17.240017] (-) TimerEvent: {}
+[17.340554] (-) TimerEvent: {}
+[17.441096] (-) TimerEvent: {}
+[17.541654] (-) TimerEvent: {}
+[17.642193] (-) TimerEvent: {}
+[17.746768] (-) TimerEvent: {}
+[17.849240] (-) TimerEvent: {}
+[17.954804] (-) TimerEvent: {}
+[18.058997] (-) TimerEvent: {}
+[18.161407] (-) TimerEvent: {}
+[18.264558] (-) TimerEvent: {}
+[18.368359] (-) TimerEvent: {}
+[18.472654] (-) TimerEvent: {}
+[18.574634] (-) TimerEvent: {}
+[18.675457] (-) TimerEvent: {}
+[18.777416] (-) TimerEvent: {}
+[18.878898] (-) TimerEvent: {}
+[18.984132] (-) TimerEvent: {}
+[19.085148] (-) TimerEvent: {}
+[19.186116] (-) TimerEvent: {}
+[19.290662] (-) TimerEvent: {}
+[19.391168] (-) TimerEvent: {}
+[19.491962] (-) TimerEvent: {}
+[19.600407] (-) TimerEvent: {}
+[19.704112] (-) TimerEvent: {}
+[19.806553] (-) TimerEvent: {}
+[19.907500] (-) TimerEvent: {}
+[20.008436] (-) TimerEvent: {}
+[20.109546] (-) TimerEvent: {}
+[20.210713] (-) TimerEvent: {}
+[20.311585] (-) TimerEvent: {}
+[20.413340] (-) TimerEvent: {}
+[20.514294] (-) TimerEvent: {}
+[20.615139] (-) TimerEvent: {}
+[20.716015] (-) TimerEvent: {}
+[20.816604] (-) TimerEvent: {}
+[20.917345] (-) TimerEvent: {}
+[21.017888] (-) TimerEvent: {}
+[21.118415] (-) TimerEvent: {}
+[21.218957] (-) TimerEvent: {}
+[21.319697] (-) TimerEvent: {}
+[21.420523] (-) TimerEvent: {}
+[21.521559] (-) TimerEvent: {}
+[21.622557] (-) TimerEvent: {}
+[21.723367] (-) TimerEvent: {}
+[21.824185] (-) TimerEvent: {}
+[21.925143] (-) TimerEvent: {}
+[22.025799] (-) TimerEvent: {}
+[22.126291] (-) TimerEvent: {}
+[22.226940] (-) TimerEvent: {}
+[22.327549] (-) TimerEvent: {}
+[22.428376] (-) TimerEvent: {}
+[22.528892] (-) TimerEvent: {}
+[22.629374] (-) TimerEvent: {}
+[22.730580] (-) TimerEvent: {}
+[22.831582] (-) TimerEvent: {}
+[22.932154] (-) TimerEvent: {}
+[23.032893] (-) TimerEvent: {}
+[23.133499] (-) TimerEvent: {}
+[23.234157] (-) TimerEvent: {}
+[23.334924] (-) TimerEvent: {}
+[23.435598] (-) TimerEvent: {}
+[23.536149] (-) TimerEvent: {}
+[23.636662] (-) TimerEvent: {}
+[23.737206] (-) TimerEvent: {}
+[23.837795] (-) TimerEvent: {}
+[23.938309] (-) TimerEvent: {}
+[24.038926] (-) TimerEvent: {}
+[24.139607] (-) TimerEvent: {}
+[24.240299] (-) TimerEvent: {}
+[24.340832] (-) TimerEvent: {}
+[24.441411] (-) TimerEvent: {}
+[24.542152] (-) TimerEvent: {}
+[24.644745] (-) TimerEvent: {}
+[24.745280] (-) TimerEvent: {}
+[24.845827] (-) TimerEvent: {}
+[24.946661] (-) TimerEvent: {}
+[25.047271] (-) TimerEvent: {}
+[25.147835] (-) TimerEvent: {}
+[25.248560] (-) TimerEvent: {}
+[25.349345] (-) TimerEvent: {}
+[25.450704] (-) TimerEvent: {}
+[25.551322] (-) TimerEvent: {}
+[25.651852] (-) TimerEvent: {}
+[25.752482] (-) TimerEvent: {}
+[25.853081] (-) TimerEvent: {}
+[25.953782] (-) TimerEvent: {}
+[26.054456] (-) TimerEvent: {}
+[26.155014] (-) TimerEvent: {}
+[26.255620] (-) TimerEvent: {}
+[26.356214] (-) TimerEvent: {}
+[26.456746] (-) TimerEvent: {}
+[26.557265] (-) TimerEvent: {}
+[26.657887] (-) TimerEvent: {}
+[26.758418] (-) TimerEvent: {}
+[26.859024] (-) TimerEvent: {}
+[26.959826] (-) TimerEvent: {}
+[27.060565] (-) TimerEvent: {}
+[27.161320] (-) TimerEvent: {}
+[27.262517] (-) TimerEvent: {}
+[27.363411] (-) TimerEvent: {}
+[27.464228] (-) TimerEvent: {}
+[27.564845] (-) TimerEvent: {}
+[27.665336] (-) TimerEvent: {}
+[27.765849] (-) TimerEvent: {}
+[27.866364] (-) TimerEvent: {}
+[27.966837] (-) TimerEvent: {}
+[28.069055] (-) TimerEvent: {}
+[28.170266] (-) TimerEvent: {}
+[28.271013] (-) TimerEvent: {}
+[28.371595] (-) TimerEvent: {}
+[28.472210] (-) TimerEvent: {}
+[28.482102] (Controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable nintendo_pro_controller\x1b[0m\n'}
+[28.572457] (-) TimerEvent: {}
+[28.673179] (-) TimerEvent: {}
+[28.773844] (-) TimerEvent: {}
+[28.874745] (-) TimerEvent: {}
+[28.975630] (-) TimerEvent: {}
+[29.076626] (-) TimerEvent: {}
+[29.177248] (-) TimerEvent: {}
+[29.278046] (-) TimerEvent: {}
+[29.378805] (-) TimerEvent: {}
+[29.479522] (-) TimerEvent: {}
+[29.585383] (-) TimerEvent: {}
+[29.686055] (-) TimerEvent: {}
+[29.786596] (-) TimerEvent: {}
+[29.887166] (-) TimerEvent: {}
+[29.933768] (Controller) StdoutLine: {'line': b'[100%] Built target nintendo_pro_controller\n'}
+[29.977188] (Controller) CommandEnded: {'returncode': 0}
+[29.988032] (-) TimerEvent: {}
+[30.092480] (-) TimerEvent: {}
+[30.103035] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'install'}
+[30.142446] (Controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kouyayamaoka/ros2_ws/src/build/Controller'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_CLIENT', '192.168.80.159 62794 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3d666167-493d-4bfa-abea-f04b683b17ec.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install:/home/kouyayamaoka/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kouyayamaoka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models:/home/user/.gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-230b9b323c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/home/kouyayamaoka/ros2_ws/src/install/Bunai:/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/install/Bunai:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Controller'), ('SSH_CONNECTION', '192.168.80.159 62794 192.168.80.45 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/home/kouyayamaoka/ros2_ws/src/install/Bunai:/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/install/Bunai:/opt/ros/foxy')]), 'shell': False}
+[30.187263] (Controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.188142] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/launch\n'}
+[30.188743] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/launch/nintendo_pro_controller.launch.py\n'}
+[30.199073] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/lib/Controller/nintendo_pro_controller\n'}
+[30.208756] (-) TimerEvent: {}
+[30.209147] (Controller) StdoutLine: {'line': b'-- Set runtime path of "/home/kouyayamaoka/ros2_ws/src/install/Controller/lib/Controller/nintendo_pro_controller" to ""\n'}
+[30.209548] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/package_run_dependencies/Controller\n'}
+[30.209854] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/parent_prefix_path/Controller\n'}
+[30.210143] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.sh\n'}
+[30.210404] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.dsv\n'}
+[30.210642] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.sh\n'}
+[30.210878] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.dsv\n'}
+[30.211160] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.bash\n'}
+[30.211420] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.sh\n'}
+[30.211696] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.zsh\n'}
+[30.212023] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.dsv\n'}
+[30.212318] (Controller) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.dsv\n'}
+[30.212574] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/packages/Controller\n'}
+[30.212878] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig.cmake\n'}
+[30.218911] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig-version.cmake\n'}
+[30.219363] (Controller) StdoutLine: {'line': b'-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.xml\n'}
+[30.219654] (Controller) CommandEnded: {'returncode': 0}
+[30.309395] (-) TimerEvent: {}
+[30.410343] (-) TimerEvent: {}
+[30.514995] (-) TimerEvent: {}
+[30.532550] (Controller) JobEnded: {'identifier': 'Controller', 'rc': 0}
+[30.535233] (-) EventReactorShutdown: {}

@@ -1,0 +1,47 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found joy: 3.0.1 (/opt/ros/foxy/share/joy/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+WARNING: Package name "Controller" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kouyayamaoka/ros2_ws/src/Controller/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kouyayamaoka/ros2_ws/src/build/Controller
+[100%] Built target nintendo_pro_controller
+-- Install configuration: ""
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/launch
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/launch/nintendo_pro_controller.launch.py
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/lib/Controller/nintendo_pro_controller
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/package_run_dependencies/Controller
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/parent_prefix_path/Controller
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.sh
+-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.sh
+-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.dsv
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.bash
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.sh
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.zsh
+-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.dsv
+-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.dsv
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/packages/Controller
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig.cmake
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig-version.cmake
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.xml

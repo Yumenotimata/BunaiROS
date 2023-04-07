@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000676] (-) JobUnselected: {'identifier': 'Controller'}
+[0.000894] (-) JobUnselected: {'identifier': 'ros2_first_test'}
+[0.001419] (Bunai) JobQueued: {'identifier': 'Bunai', 'dependencies': OrderedDict()}
+[0.001928] (Bunai) JobStarted: {'identifier': 'Bunai'}
+[0.033169] (Bunai) JobProgress: {'identifier': 'Bunai', 'progress': 'cmake'}
+[0.035154] (Bunai) Command: {'cmd': ['/usr/bin/cmake', '/home/kouyayamaoka/ros2_ws/src/Bunai', '-DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/Bunai'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Bunai', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_CLIENT', '192.168.80.159 62024 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-39032e7a-8ee7-4188-9e18-d03809c2ee03.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kouyayamaoka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models:/home/user/.gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b72b7c7379.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Bunai'), ('SSH_CONNECTION', '192.168.80.159 62024 192.168.80.45 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/opt/ros/foxy')]), 'shell': False}
+[0.074241] (Bunai) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099423] (-) TimerEvent: {}
+[0.125231] (Bunai) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199525] (-) TimerEvent: {}
+[0.299992] (-) TimerEvent: {}
+[0.400437] (-) TimerEvent: {}
+[0.500886] (-) TimerEvent: {}
+[0.601367] (-) TimerEvent: {}
+[0.658774] (Bunai) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.701520] (-) TimerEvent: {}
+[0.734352] (Bunai) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[0.739910] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[0.749191] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.753065] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.763707] (Bunai) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.766550] (Bunai) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.785226] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.789619] (Bunai) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.789867] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.790044] (Bunai) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.794920] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.795150] (Bunai) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.795324] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.795497] (Bunai) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.795669] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.795840] (Bunai) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.796013] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.796185] (Bunai) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.802674] (-) TimerEvent: {}
+[0.903166] (-) TimerEvent: {}
+[1.003633] (-) TimerEvent: {}
+[1.104104] (-) TimerEvent: {}
+[1.180093] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[1.183170] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.4.0\n'}
+[1.184771] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.204263] (-) TimerEvent: {}
+[1.219960] (Bunai) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[1.249235] (Bunai) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.257549] (Bunai) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.294899] (Bunai) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[1.304410] (-) TimerEvent: {}
+[1.387125] (Bunai) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.404567] (-) TimerEvent: {}
+[1.422052] (Bunai) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[1.501157] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[1.503407] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.505339] (-) TimerEvent: {}
+[1.551349] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[1.562404] (Bunai) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.597869] (Bunai) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[1.605506] (-) TimerEvent: {}
+[1.681477] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[1.684126] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[1.687459] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.690334] (Bunai) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.692032] (Bunai) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.705633] (-) TimerEvent: {}
+[1.712727] (Bunai) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.714905] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.15.1\n'}
+[1.718002] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.720475] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[1.723896] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.8.2\n'}
+[1.726066] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.791342] (Bunai) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.805784] (-) TimerEvent: {}
+[1.827197] (Bunai) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[1.905937] (-) TimerEvent: {}
+[1.921488] (Bunai) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.961355] (Bunai) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[2.006089] (-) TimerEvent: {}
+[2.037154] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[2.040682] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.044856] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[2.057733] (Bunai) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.106222] (-) TimerEvent: {}
+[2.170898] (Bunai) StderrLine: {'line': b'WARNING: Package name "Bunai" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[2.206425] (-) TimerEvent: {}
+[2.287819] (Bunai) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.291769] (Bunai) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.292999] (Bunai) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kouyayamaoka/ros2_ws/src/Bunai/include>\n'}
+[2.293431] (Bunai) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.297209] (Bunai) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.297667] (Bunai) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.300504] (Bunai) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.303188] (Bunai) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.305708] (Bunai) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.306453] (-) TimerEvent: {}
+[2.309982] (Bunai) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.310388] (Bunai) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.312552] (Bunai) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.323013] (Bunai) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.338755] (Bunai) StdoutLine: {'line': b'-- Generating done\n'}
+[2.343139] (Bunai) StdoutLine: {'line': b'-- Build files have been written to: /home/kouyayamaoka/ros2_ws/src/build/Bunai\n'}
+[2.368786] (Bunai) CommandEnded: {'returncode': 0}
+[2.371609] (Bunai) JobProgress: {'identifier': 'Bunai', 'progress': 'build'}
+[2.371773] (Bunai) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kouyayamaoka/ros2_ws/src/build/Bunai', '--', '-j2', '-l2'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Bunai', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_CLIENT', '192.168.80.159 62024 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-39032e7a-8ee7-4188-9e18-d03809c2ee03.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kouyayamaoka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models:/home/user/.gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b72b7c7379.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Bunai'), ('SSH_CONNECTION', '192.168.80.159 62024 192.168.80.45 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/opt/ros/foxy')]), 'shell': False}
+[2.406645] (-) TimerEvent: {}
+[2.459313] (Bunai) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target estimate\x1b[0m\n'}
+[2.489177] (Bunai) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/estimate.dir/src/estimate.cpp.o\x1b[0m\n'}
+[2.506886] (-) TimerEvent: {}
+[2.554470] (Bunai) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable estimate\x1b[0m\n'}
+[2.607051] (-) TimerEvent: {}
+[2.652610] (Bunai) StdoutLine: {'line': b'[100%] Built target estimate\n'}
+[2.691792] (Bunai) CommandEnded: {'returncode': 0}
+[2.707294] (-) TimerEvent: {}
+[2.748453] (Bunai) JobProgress: {'identifier': 'Bunai', 'progress': 'install'}
+[2.772551] (Bunai) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kouyayamaoka/ros2_ws/src/build/Bunai'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Bunai', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_CLIENT', '192.168.80.159 62024 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-39032e7a-8ee7-4188-9e18-d03809c2ee03.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kouyayamaoka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models:/home/user/.gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b72b7c7379.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Bunai'), ('SSH_CONNECTION', '192.168.80.159 62024 192.168.80.45 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/opt/ros/foxy')]), 'shell': False}
+[2.796755] (Bunai) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.797268] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/rviz\n'}
+[2.799122] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch\n'}
+[2.800552] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/rviz.launch.py\n'}
+[2.802536] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/Bunai.launch.py\n'}
+[2.804475] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/urdf\n'}
+[2.805107] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/urdf/bunai.urdf\n'}
+[2.806754] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/worlds\n'}
+[2.807380] (-) TimerEvent: {}
+[2.807804] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/worlds/bunai.world\n'}
+[2.810225] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/package_run_dependencies/Bunai\n'}
+[2.812526] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/parent_prefix_path/Bunai\n'}
+[2.813604] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/ament_prefix_path.sh\n'}
+[2.815700] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/ament_prefix_path.dsv\n'}
+[2.816648] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/path.sh\n'}
+[2.819835] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/path.dsv\n'}
+[2.820739] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.bash\n'}
+[2.821611] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.sh\n'}
+[2.822472] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.zsh\n'}
+[2.823366] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.dsv\n'}
+[2.826780] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/package.dsv\n'}
+[2.827840] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/packages/Bunai\n'}
+[2.828985] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/cmake/BunaiConfig.cmake\n'}
+[2.829685] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/cmake/BunaiConfig-version.cmake\n'}
+[2.830468] (Bunai) StdoutLine: {'line': b'-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/package.xml\n'}
+[2.845186] (Bunai) CommandEnded: {'returncode': 0}
+[2.907597] (-) TimerEvent: {}
+[2.978309] (Bunai) JobEnded: {'identifier': 'Bunai', 'rc': 0}
+[2.981740] (-) EventReactorShutdown: {}

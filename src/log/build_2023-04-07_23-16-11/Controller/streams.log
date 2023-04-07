@@ -1,0 +1,28 @@
+[0.181s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2
+[0.687s] [35m[1mScanning dependencies of target nintendo_pro_controller[0m
+[1.008s] [ 50%] [32mBuilding CXX object CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o[0m
+[43.034s] [100%] [32m[1mLinking CXX executable nintendo_pro_controller[0m
+[44.286s] [100%] Built target nintendo_pro_controller
+[44.346s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2
+[44.467s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/Controller
+[44.542s] -- Install configuration: ""
+[44.542s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/launch
+[44.543s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/launch/nintendo_pro_controller.launch.py
+[44.549s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/lib/Controller/nintendo_pro_controller
+[44.572s] -- Set runtime path of "/home/kouyayamaoka/ros2_ws/src/install/Controller/lib/Controller/nintendo_pro_controller" to ""
+[44.572s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/package_run_dependencies/Controller
+[44.578s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/parent_prefix_path/Controller
+[44.581s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.sh
+[44.583s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/ament_prefix_path.dsv
+[44.584s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.sh
+[44.589s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/environment/path.dsv
+[44.590s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.bash
+[44.590s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.sh
+[44.590s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.zsh
+[44.596s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/local_setup.dsv
+[44.617s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.dsv
+[44.619s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/ament_index/resource_index/packages/Controller
+[44.619s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig.cmake
+[44.620s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/cmake/ControllerConfig-version.cmake
+[44.621s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Controller/share/Controller/package.xml
+[44.624s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/Controller

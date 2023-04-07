@@ -1,0 +1,23 @@
+[0.042s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/Bunai -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/Bunai
+[0.078s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.129s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.575s] CMake Error at CMakeLists.txt:20 (find_package):
+[0.575s]   By not providing "Findrviz.cmake" in CMAKE_MODULE_PATH this project has
+[0.575s]   asked CMake to find a package configuration file provided by "rviz", but
+[0.575s]   CMake did not find one.
+[0.576s] 
+[0.576s]   Could not find a package configuration file provided by "rviz" with any of
+[0.576s]   the following names:
+[0.576s] 
+[0.576s]     rvizConfig.cmake
+[0.592s]     rviz-config.cmake
+[0.593s] 
+[0.595s]   Add the installation prefix of "rviz" to CMAKE_PREFIX_PATH or set
+[0.596s]   "rviz_DIR" to a directory containing one of the above files.  If "rviz"
+[0.597s]   provides a separate development package or SDK, be sure it has been
+[0.598s]   installed.
+[0.601s] 
+[0.601s] -- Configuring incomplete, errors occurred!
+[0.601s] See also "/home/kouyayamaoka/ros2_ws/src/build/Bunai/CMakeFiles/CMakeOutput.log".
+[0.602s] 
+[0.602s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/Bunai -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/Bunai

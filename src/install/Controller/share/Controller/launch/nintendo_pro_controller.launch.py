@@ -6,5 +6,9 @@ def generate_launch_description():
         Node(
             package = 'joy',
             executable = 'joy_node',
+        ),
+        Node(
+            package = 'Controller',
+            executable = 'nintendo_pro_controller',
         )
     ])

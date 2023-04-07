@@ -1,0 +1,11 @@
+[0.129s] Invoking command in '/home/kouyayamaoka/ros2_ws/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/build/Controller -- -j2 -l2
+[0.464s] [35m[1mScanning dependencies of target nintendo_pro_controller[0m
+[0.714s] [ 50%] [32mBuilding CXX object CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o[0m
+[1.323s] [01m[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/Joy.hpp: そのようなファイルやディレクトリはありません
+[1.324s]     2 | #include [01;31m[K<sensor_msgs/msg/Joy.hpp>[m[K
+[1.329s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.330s] compilation terminated.
+[1.333s] make[2]: *** [CMakeFiles/nintendo_pro_controller.dir/build.make:63: CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o] エラー 1
+[1.353s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nintendo_pro_controller.dir/all] エラー 2
+[1.354s] make: *** [Makefile:141: all] エラー 2
+[1.364s] Invoked command in '/home/kouyayamaoka/ros2_ws/build/Controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/build/Controller -- -j2 -l2

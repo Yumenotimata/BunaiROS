@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.001819] (-) JobUnselected: {'identifier': 'Bunai'}
+[0.001953] (-) JobUnselected: {'identifier': 'ros2_first_test'}
+[0.002048] (Controller) JobQueued: {'identifier': 'Controller', 'dependencies': OrderedDict()}
+[0.004984] (Controller) JobStarted: {'identifier': 'Controller'}
+[0.076042] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'cmake'}
+[0.090765] (Controller) JobProgress: {'identifier': 'Controller', 'progress': 'build'}
+[0.091740] (Controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kouyayamaoka/ros2_ws/src/build/Controller', '--', '-j2', '-l2'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_CLIENT', '192.168.80.159 61563 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-41803ece-84f5-459f-8d24-213ea313b994.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install:/home/kouyayamaoka/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kouyayamaoka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models:/home/user/.gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-986e596920.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/home/kouyayamaoka/ros2_ws/src/install/Bunai:/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/install/Bunai:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Controller'), ('SSH_CONNECTION', '192.168.80.159 61563 192.168.80.45 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/home/kouyayamaoka/ros2_ws/src/install/Bunai:/home/kouyayamaoka/ros2_ws/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/install/Bunai:/opt/ros/foxy')]), 'shell': False}
+[0.099378] (-) TimerEvent: {}
+[0.201190] (-) TimerEvent: {}
+[0.254746] (Controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nintendo_pro_controller\x1b[0m\n'}
+[0.301340] (-) TimerEvent: {}
+[0.362756] (Controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o\x1b[0m\n'}
+[0.401539] (-) TimerEvent: {}
+[0.502593] (-) TimerEvent: {}
+[0.603154] (-) TimerEvent: {}
+[0.703713] (-) TimerEvent: {}
+[0.804276] (-) TimerEvent: {}
+[0.904901] (-) TimerEvent: {}
+[1.005578] (-) TimerEvent: {}
+[1.106502] (-) TimerEvent: {}
+[1.207158] (-) TimerEvent: {}
+[1.307775] (-) TimerEvent: {}
+[1.408841] (-) TimerEvent: {}
+[1.509399] (-) TimerEvent: {}
+[1.609979] (-) TimerEvent: {}
+[1.710561] (-) TimerEvent: {}
+[1.811113] (-) TimerEvent: {}
+[1.911699] (-) TimerEvent: {}
+[2.012300] (-) TimerEvent: {}
+[2.112959] (-) TimerEvent: {}
+[2.213570] (-) TimerEvent: {}
+[2.314243] (-) TimerEvent: {}
+[2.414832] (-) TimerEvent: {}
+[2.515398] (-) TimerEvent: {}
+[2.615970] (-) TimerEvent: {}
+[2.716550] (-) TimerEvent: {}
+[2.817169] (-) TimerEvent: {}
+[2.917850] (-) TimerEvent: {}
+[3.018479] (-) TimerEvent: {}
+[3.119131] (-) TimerEvent: {}
+[3.219714] (-) TimerEvent: {}
+[3.320467] (-) TimerEvent: {}
+[3.421118] (-) TimerEvent: {}
+[3.521709] (-) TimerEvent: {}
+[3.622339] (-) TimerEvent: {}
+[3.722921] (-) TimerEvent: {}
+[3.823597] (-) TimerEvent: {}
+[3.924161] (-) TimerEvent: {}
+[4.024770] (-) TimerEvent: {}
+[4.125427] (-) TimerEvent: {}
+[4.226056] (-) TimerEvent: {}
+[4.326730] (-) TimerEvent: {}
+[4.427300] (-) TimerEvent: {}
+[4.527878] (-) TimerEvent: {}
+[4.628464] (-) TimerEvent: {}
+[4.729051] (-) TimerEvent: {}
+[4.829637] (-) TimerEvent: {}
+[4.930246] (-) TimerEvent: {}
+[5.030955] (-) TimerEvent: {}
+[5.131548] (-) TimerEvent: {}
+[5.232241] (-) TimerEvent: {}
+[5.333042] (-) TimerEvent: {}
+[5.433712] (-) TimerEvent: {}
+[5.534289] (-) TimerEvent: {}
+[5.596061] (Controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[5.596652] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.597006] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.597314] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.597619] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.597913] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.598202] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.598536] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[5.598870] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.599176] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[5.599460] (Controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:1\x1b[m\x1b[K:\n'}
+[5.599764] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Controller::controller_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.600059] (Controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:14:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<sensor_msgs::msg::Joy_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kaxes_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.600356] (Controller) StderrLine: {'line': b'   14 |             RCLCPP_INFO(this->get_logger(),"%f",joy_msg.\x1b[01;31m\x1b[Kaxes_\x1b[m\x1b[K(0));\n'}
+[5.600649] (Controller) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.634487] (-) TimerEvent: {}
+[5.735173] (-) TimerEvent: {}
+[5.835800] (-) TimerEvent: {}
+[5.936751] (-) TimerEvent: {}
+[6.037321] (-) TimerEvent: {}
+[6.137899] (-) TimerEvent: {}
+[6.238484] (-) TimerEvent: {}
+[6.339092] (-) TimerEvent: {}
+[6.439763] (-) TimerEvent: {}
+[6.540349] (-) TimerEvent: {}
+[6.641316] (-) TimerEvent: {}
+[6.741888] (-) TimerEvent: {}
+[6.842520] (-) TimerEvent: {}
+[6.943197] (-) TimerEvent: {}
+[7.043811] (-) TimerEvent: {}
+[7.144487] (-) TimerEvent: {}
+[7.245050] (-) TimerEvent: {}
+[7.345631] (-) TimerEvent: {}
+[7.446200] (-) TimerEvent: {}
+[7.546796] (-) TimerEvent: {}
+[7.647473] (-) TimerEvent: {}
+[7.748088] (-) TimerEvent: {}
+[7.848729] (-) TimerEvent: {}
+[7.949307] (-) TimerEvent: {}
+[8.049941] (-) TimerEvent: {}
+[8.150545] (-) TimerEvent: {}
+[8.251169] (-) TimerEvent: {}
+[8.351712] (-) TimerEvent: {}
+[8.452309] (-) TimerEvent: {}
+[8.552978] (-) TimerEvent: {}
+[8.653553] (-) TimerEvent: {}
+[8.754115] (-) TimerEvent: {}
+[8.854699] (-) TimerEvent: {}
+[8.955318] (-) TimerEvent: {}
+[9.055994] (-) TimerEvent: {}
+[9.156588] (-) TimerEvent: {}
+[9.257248] (-) TimerEvent: {}
+[9.357823] (-) TimerEvent: {}
+[9.458404] (-) TimerEvent: {}
+[9.559114] (-) TimerEvent: {}
+[9.659712] (-) TimerEvent: {}
+[9.760462] (-) TimerEvent: {}
+[9.861044] (-) TimerEvent: {}
+[9.961787] (-) TimerEvent: {}
+[10.062475] (-) TimerEvent: {}
+[10.163091] (-) TimerEvent: {}
+[10.264129] (-) TimerEvent: {}
+[10.364697] (-) TimerEvent: {}
+[10.465276] (-) TimerEvent: {}
+[10.565829] (-) TimerEvent: {}
+[10.666402] (-) TimerEvent: {}
+[10.767010] (-) TimerEvent: {}
+[10.867667] (-) TimerEvent: {}
+[10.968272] (-) TimerEvent: {}
+[11.013943] (Controller) StderrLine: {'line': b'make[2]: *** [CMakeFiles/nintendo_pro_controller.dir/build.make:63: CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[11.015218] (Controller) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nintendo_pro_controller.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[11.025529] (Controller) StderrLine: {'line': b'make: *** [Makefile:141: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[11.026334] (Controller) CommandEnded: {'returncode': 2}
+[11.068422] (-) TimerEvent: {}
+[11.172505] (-) TimerEvent: {}
+[11.204428] (Controller) JobEnded: {'identifier': 'Controller', 'rc': 2}
+[11.215092] (-) EventReactorShutdown: {}

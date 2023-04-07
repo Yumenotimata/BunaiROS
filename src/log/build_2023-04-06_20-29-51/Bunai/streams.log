@@ -1,0 +1,38 @@
+[0.054s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/Bunai -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/Bunai
+[0.518s] -- The C compiler identification is GNU 9.4.0
+[0.789s] -- The CXX compiler identification is GNU 9.4.0
+[0.826s] -- Check for working C compiler: /usr/bin/cc
+[1.011s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.017s] -- Detecting C compiler ABI info
+[1.216s] -- Detecting C compiler ABI info - done
+[1.263s] -- Detecting C compile features
+[1.266s] -- Detecting C compile features - done
+[1.275s] -- Check for working CXX compiler: /usr/bin/c++
+[1.455s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.457s] -- Detecting CXX compiler ABI info
+[1.667s] -- Detecting CXX compiler ABI info - done
+[1.697s] -- Detecting CXX compile features
+[1.699s] -- Detecting CXX compile features - done
+[1.726s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.807s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.812s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.396s] CMake Error at CMakeLists.txt:20 (find_package):
+[2.396s]   By not providing "Findrviz.cmake" in CMAKE_MODULE_PATH this project has
+[2.396s]   asked CMake to find a package configuration file provided by "rviz", but
+[2.396s]   CMake did not find one.
+[2.396s] 
+[2.397s]   Could not find a package configuration file provided by "rviz" with any of
+[2.397s]   the following names:
+[2.397s] 
+[2.397s]     rvizConfig.cmake
+[2.397s]     rviz-config.cmake
+[2.397s] 
+[2.398s]   Add the installation prefix of "rviz" to CMAKE_PREFIX_PATH or set
+[2.398s]   "rviz_DIR" to a directory containing one of the above files.  If "rviz"
+[2.398s]   provides a separate development package or SDK, be sure it has been
+[2.398s]   installed.
+[2.398s] 
+[2.398s] 
+[2.404s] -- Configuring incomplete, errors occurred!
+[2.404s] See also "/home/kouyayamaoka/ros2_ws/src/build/Bunai/CMakeFiles/CMakeOutput.log".
+[2.419s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/Bunai -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/Bunai

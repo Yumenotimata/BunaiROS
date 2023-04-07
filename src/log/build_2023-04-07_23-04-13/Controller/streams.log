@@ -1,0 +1,44 @@
+[0.083s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2
+[0.187s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.281s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.090s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.279s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.088s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.095s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.889s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.492s] -- Found joy: 3.0.1 (/opt/ros/foxy/share/joy/cmake)
+[3.502s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.720s] WARNING: Package name "Controller" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[3.787s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.793s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.796s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kouyayamaoka/ros2_ws/src/Controller/include>
+[3.798s] -- Configured cppcheck exclude dirs and/or files: 
+[3.803s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.805s] -- Configured cpplint exclude dirs and/or files: 
+[3.812s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.817s] -- Added test 'lint_cmake' to check CMake code style
+[3.820s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.827s] -- Added test 'uncrustify' to check C / C++ code style
+[3.828s] -- Configured uncrustify additional arguments: 
+[3.832s] -- Added test 'xmllint' to check XML markup files
+[3.849s] -- Configuring done
+[3.899s] -- Generating done
+[3.911s] -- Build files have been written to: /home/kouyayamaoka/ros2_ws/src/build/Controller
+[4.016s] [35m[1mScanning dependencies of target nintendo_pro_controller[0m
+[4.174s] [ 50%] [32mBuilding CXX object CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o[0m
+[9.926s] [01m[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:[m[K In constructor ‘[01m[KController::Controller()[m[K’:
+[9.926s] [01m[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:11:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[9.927s]    11 |             [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel",10);
+[9.927s]       |             [01;31m[K^~~~~~~~~~[m[K
+[9.928s]       |             [32m[Krcl_publisher_t[m[K
+[9.955s] [01m[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:[m[K In member function ‘[01m[Kvoid Controller::controller_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr) const[m[K’:
+[9.956s] [01m[K/home/kouyayamaoka/ros2_ws/src/Controller/src/nintendo_pro_controller.cpp:19:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[9.956s]    19 |             [01;31m[Kpublisher_[m[K->publisher(message);
+[9.956s]       |             [01;31m[K^~~~~~~~~~[m[K
+[9.957s]       |             [32m[Krcl_publisher_t[m[K
+[19.397s] make[2]: *** [CMakeFiles/nintendo_pro_controller.dir/build.make:63: CMakeFiles/nintendo_pro_controller.dir/src/nintendo_pro_controller.cpp.o] エラー 1
+[19.397s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nintendo_pro_controller.dir/all] エラー 2
+[19.397s] make: *** [Makefile:141: all] エラー 2
+[19.398s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Controller -- -j2 -l2

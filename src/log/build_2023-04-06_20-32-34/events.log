@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000672] (-) JobUnselected: {'identifier': 'Controller'}
+[0.000878] (-) JobUnselected: {'identifier': 'ros2_first_test'}
+[0.001395] (Bunai) JobQueued: {'identifier': 'Bunai', 'dependencies': OrderedDict()}
+[0.001888] (Bunai) JobStarted: {'identifier': 'Bunai'}
+[0.036796] (Bunai) JobProgress: {'identifier': 'Bunai', 'progress': 'cmake'}
+[0.038199] (Bunai) Command: {'cmd': ['/usr/bin/cmake', '/home/kouyayamaoka/ros2_ws/src/Bunai', '-DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/src/install/Bunai'], 'cwd': '/home/kouyayamaoka/ros2_ws/src/build/Bunai', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kouyayamaoka'), ('SSH_CLIENT', '192.168.80.159 62024 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kouyayamaoka'), ('OLDPWD', '/home/kouyayamaoka/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-39032e7a-8ee7-4188-9e18-d03809c2ee03.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kouyayamaoka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GAZEBO_MODEL_PATH', ':/home/user/.gazebo/models:/home/user/.gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kouyayamaoka/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b72b7c7379.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kouyayamaoka/ros2_ws/src/build/Bunai'), ('SSH_CONNECTION', '192.168.80.159 62024 192.168.80.45 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test:/home/kouyayamaoka/ros2_ws/src/install/Controller:/opt/ros/foxy')]), 'shell': False}
+[0.081816] (Bunai) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099452] (-) TimerEvent: {}
+[0.138140] (Bunai) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199583] (-) TimerEvent: {}
+[0.301207] (-) TimerEvent: {}
+[0.401647] (-) TimerEvent: {}
+[0.504307] (-) TimerEvent: {}
+[0.599220] (Bunai) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[0.604465] (-) TimerEvent: {}
+[0.613806] (Bunai) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.675936] (Bunai) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[0.704615] (-) TimerEvent: {}
+[0.807491] (-) TimerEvent: {}
+[0.908804] (-) TimerEvent: {}
+[0.966881] (Bunai) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.008983] (-) TimerEvent: {}
+[1.096117] (Bunai) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.109151] (-) TimerEvent: {}
+[1.211305] (-) TimerEvent: {}
+[1.221408] (Bunai) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[1.311547] (-) TimerEvent: {}
+[1.323086] (Bunai) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.411683] (-) TimerEvent: {}
+[1.518079] (-) TimerEvent: {}
+[1.620757] (-) TimerEvent: {}
+[1.721247] (-) TimerEvent: {}
+[1.822488] (-) TimerEvent: {}
+[1.922967] (-) TimerEvent: {}
+[2.024469] (-) TimerEvent: {}
+[2.124971] (-) TimerEvent: {}
+[2.190358] (Bunai) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.225117] (-) TimerEvent: {}
+[2.305111] (Bunai) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[2.325307] (-) TimerEvent: {}
+[2.329768] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.365407] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.378414] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.380832] (Bunai) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.389017] (Bunai) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.420516] (Bunai) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.425462] (-) TimerEvent: {}
+[2.507301] (Bunai) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.525615] (-) TimerEvent: {}
+[2.539007] (Bunai) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.560891] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.581024] (Bunai) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.581486] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.610407] (Bunai) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.610885] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.625748] (-) TimerEvent: {}
+[2.632158] (Bunai) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.632632] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.652990] (Bunai) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.653450] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.673763] (Bunai) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.674225] (Bunai) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.694574] (Bunai) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.725899] (-) TimerEvent: {}
+[2.826423] (-) TimerEvent: {}
+[2.926882] (-) TimerEvent: {}
+[3.027343] (-) TimerEvent: {}
+[3.064825] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[3.075365] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.4.0\n'}
+[3.077360] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.114939] (Bunai) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[3.127491] (-) TimerEvent: {}
+[3.146254] (Bunai) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.155098] (Bunai) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.205087] (Bunai) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[3.227655] (-) TimerEvent: {}
+[3.297475] (Bunai) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.317490] (Bunai) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.327887] (-) TimerEvent: {}
+[3.354677] (Bunai) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[3.428037] (-) TimerEvent: {}
+[3.442699] (Bunai) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.453835] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[3.457186] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.494883] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[3.511745] (Bunai) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.528196] (-) TimerEvent: {}
+[3.550133] (Bunai) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[3.628336] (-) TimerEvent: {}
+[3.649167] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[3.658099] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[3.660527] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.661937] (Bunai) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.664832] (Bunai) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.668620] (Bunai) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.692044] (Bunai) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.701041] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.15.1\n'}
+[3.703161] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.704671] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[3.718562] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.8.2\n'}
+[3.721523] (Bunai) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.728492] (-) TimerEvent: {}
+[3.829242] (-) TimerEvent: {}
+[3.902396] (Bunai) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[3.929406] (-) TimerEvent: {}
+[3.931691] (Bunai) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.975869] (Bunai) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[4.029548] (-) TimerEvent: {}
+[4.066668] (Bunai) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[4.089238] (Bunai) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.129711] (-) TimerEvent: {}
+[4.132698] (Bunai) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[4.224350] (Bunai) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[4.227838] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[4.229824] (-) TimerEvent: {}
+[4.232276] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[4.235249] (Bunai) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[4.244297] (Bunai) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[4.244718] (Bunai) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'rviz' was not found\n"}
+[4.244903] (Bunai) StderrLine: {'line': b'  before\n'}
+[4.245077] (Bunai) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.245241] (Bunai) StderrLine: {'line': b'  CMakeLists.txt:27 (ament_target_dependencies)\n'}
+[4.245405] (Bunai) StderrLine: {'line': b'\n'}
+[4.245565] (Bunai) StderrLine: {'line': b'\n'}
+[4.248061] (Bunai) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.248536] (Bunai) StdoutLine: {'line': b'See also "/home/kouyayamaoka/ros2_ws/src/build/Bunai/CMakeFiles/CMakeOutput.log".\n'}
+[4.248860] (Bunai) StdoutLine: {'line': b'See also "/home/kouyayamaoka/ros2_ws/src/build/Bunai/CMakeFiles/CMakeError.log".\n'}
+[4.276261] (Bunai) CommandEnded: {'returncode': 1}
+[4.332025] (-) TimerEvent: {}
+[4.349356] (Bunai) JobEnded: {'identifier': 'Bunai', 'rc': 1}
+[4.356272] (-) EventReactorShutdown: {}

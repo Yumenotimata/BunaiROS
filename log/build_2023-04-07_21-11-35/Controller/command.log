@@ -1,0 +1,4 @@
+Invoking command in '/home/kouyayamaoka/ros2_ws/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/Controller -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/install/Controller
+Invoked command in '/home/kouyayamaoka/ros2_ws/build/Controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kouyayamaoka/ros2_ws/src/Controller -DCMAKE_INSTALL_PREFIX=/home/kouyayamaoka/ros2_ws/install/Controller
+Invoking command in '/home/kouyayamaoka/ros2_ws/build/Controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/build/Controller -- -j2 -l2
+Invoked command in '/home/kouyayamaoka/ros2_ws/build/Controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/build/Controller -- -j2 -l2

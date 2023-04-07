@@ -18,6 +18,9 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(joy REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 add_executable(nintendo_pro_controller src/nintendo_pro_controller.cpp)
 target_include_directories(nintendo_pro_controller PUBLIC
@@ -26,6 +29,9 @@ target_include_directories(nintendo_pro_controller PUBLIC
 ament_target_dependencies(
   nintendo_pro_controller
   "rclcpp"
+  "sensor_msgs"
+  "joy"
+  "geometry_msgs"
 )
 
 install(DIRECTORY launch 

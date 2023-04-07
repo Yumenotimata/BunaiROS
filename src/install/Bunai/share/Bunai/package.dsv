@@ -1,0 +1,8 @@
+source;share/Bunai/hook/cmake_prefix_path.ps1
+source;share/Bunai/hook/cmake_prefix_path.dsv
+source;share/Bunai/hook/cmake_prefix_path.sh
+source;share/Bunai/local_setup.bash
+source;share/Bunai/local_setup.dsv
+source;share/Bunai/local_setup.ps1
+source;share/Bunai/local_setup.sh
+source;share/Bunai/local_setup.zsh
