@@ -4,9 +4,9 @@ include "trajectory_builder.lua"
 options = {
   map_builder = MAP_BUILDER,
   trajectory_builder = TRAJECTORY_BUILDER,
-  map_frame = "base_link",
+  map_frame = "map",
   tracking_frame = "lidar_link",
-  published_frame = "lidar_link",
+  published_frame = "odom",
   odom_frame = "odom",
   provide_odom_frame = false,
   publish_frame_projected_to_2d = false,

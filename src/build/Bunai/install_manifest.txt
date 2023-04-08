@@ -1,6 +1,7 @@
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/rviz/bunai.rviz
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/localization.launch.py
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/rviz.launch.py
+/home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/cartographer.launch.py
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/Bunai.launch.py
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/urdf/bunai.urdf
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config/ydlidar_cartographer.rviz

@@ -1,0 +1,30 @@
+[100%] Built target estimate
+-- Install configuration: ""
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/rviz
+-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/rviz/bunai.rviz
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/localization.launch.py
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/rviz.launch.py
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/Bunai.launch.py
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/urdf
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/urdf/bunai.urdf
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config/ydlidar_cartographer.rviz
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config/cartgrapher.lua
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/worlds
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/worlds/bunai.world
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/package_run_dependencies/Bunai
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/parent_prefix_path/Bunai
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/path.sh
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/path.dsv
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.bash
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.sh
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.zsh
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.dsv
+-- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/package.dsv
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/packages/Bunai
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/cmake/BunaiConfig.cmake
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/cmake/BunaiConfig-version.cmake
+-- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/package.xml

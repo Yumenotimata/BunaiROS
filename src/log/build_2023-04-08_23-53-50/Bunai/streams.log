@@ -1,0 +1,34 @@
+[0.102s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Bunai -- -j2 -l2
+[0.468s] [100%] Built target estimate
+[0.540s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Bunai -- -j2 -l2
+[0.784s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/Bunai
+[0.928s] -- Install configuration: ""
+[0.932s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/rviz
+[0.933s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/rviz/bunai.rviz
+[0.933s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch
+[0.933s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/localization.launch.py
+[0.934s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/rviz.launch.py
+[0.934s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/Bunai.launch.py
+[0.934s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/urdf
+[0.934s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/urdf/bunai.urdf
+[0.935s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config
+[0.935s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config/ydlidar_cartographer.rviz
+[0.935s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config/cartgrapher.lua
+[0.935s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/worlds
+[0.935s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/worlds/bunai.world
+[0.936s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/package_run_dependencies/Bunai
+[0.936s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/parent_prefix_path/Bunai
+[0.936s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/ament_prefix_path.sh
+[0.938s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/ament_prefix_path.dsv
+[0.941s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/path.sh
+[0.941s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/path.dsv
+[0.941s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.bash
+[0.941s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.sh
+[0.945s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.zsh
+[0.946s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.dsv
+[0.947s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/package.dsv
+[0.947s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/packages/Bunai
+[0.947s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/cmake/BunaiConfig.cmake
+[0.947s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/cmake/BunaiConfig-version.cmake
+[0.947s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/package.xml
+[0.967s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/Bunai

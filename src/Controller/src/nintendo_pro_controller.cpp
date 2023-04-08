@@ -15,9 +15,9 @@ class Controller : public rclcpp::Node
         void controller_callback(const sensor_msgs::msg::Joy::SharedPtr joy_msg)const
         {
             auto message = geometry_msgs::msg::Twist();
-            message.linear.x = -3*joy_msg->axes[1];
-            message.linear.y = -3*joy_msg->axes[0];
-            message.angular.z = 3*joy_msg->buttons[5] -3*joy_msg->buttons[6];
+            message.linear.x = -5*joy_msg->axes[1];
+            message.linear.y = -5*joy_msg->axes[0];
+            message.angular.z = 5*joy_msg->buttons[5] -5*joy_msg->buttons[6];
             publisher_->publish(message);
             printf("%f\n",joy_msg->axes[1]);
             //RCLCPP_INFO(this->get_logger(),"%f",joy_msg.buttons(0));

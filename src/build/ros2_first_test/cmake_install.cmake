@@ -38,6 +38,15 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_first_test" TYPE DIRECTORY FILES
+    "/home/kouyayamaoka/ros2_ws/src/ros2_first_test/launch"
+    "/home/kouyayamaoka/ros2_ws/src/ros2_first_test/urdf"
+    "/home/kouyayamaoka/ros2_ws/src/ros2_first_test/rviz"
+    "/home/kouyayamaoka/ros2_ws/src/ros2_first_test/worlds"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/kouyayamaoka/ros2_ws/src/build/ros2_first_test/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_first_test")
 endif()
 

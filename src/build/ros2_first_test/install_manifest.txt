@@ -1,3 +1,8 @@
+/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test/share/ros2_first_test/launch/first_rviz.launch.py
+/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test/share/ros2_first_test/launch/first_gazebo.launch.py
+/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test/share/ros2_first_test/urdf/first_robot.urdf
+/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test/share/ros2_first_test/rviz/first_robot.rviz
+/home/kouyayamaoka/ros2_ws/src/install/ros2_first_test/share/ros2_first_test/worlds/basic.world
 /home/kouyayamaoka/ros2_ws/src/install/ros2_first_test/share/ament_index/resource_index/package_run_dependencies/ros2_first_test
 /home/kouyayamaoka/ros2_ws/src/install/ros2_first_test/share/ament_index/resource_index/parent_prefix_path/ros2_first_test
 /home/kouyayamaoka/ros2_ws/src/install/ros2_first_test/share/ros2_first_test/environment/ament_prefix_path.sh
