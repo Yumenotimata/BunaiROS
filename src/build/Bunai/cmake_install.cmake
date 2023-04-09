@@ -44,6 +44,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/kouyayamaoka/ros2_ws/src/Bunai/urdf"
     "/home/kouyayamaoka/ros2_ws/src/Bunai/config"
     "/home/kouyayamaoka/ros2_ws/src/Bunai/worlds"
+    "/home/kouyayamaoka/ros2_ws/src/Bunai/map"
+    "/home/kouyayamaoka/ros2_ws/src/Bunai/nav2"
+    "/home/kouyayamaoka/ros2_ws/src/Bunai/test"
     )
 endif()
 

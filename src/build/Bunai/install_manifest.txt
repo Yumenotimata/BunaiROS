@@ -1,12 +1,17 @@
+/home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/rviz/navigation.rviz
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/rviz/bunai.rviz
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/localization.launch.py
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/rviz.launch.py
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/cartographer.launch.py
+/home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/navigation.launch.py
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/Bunai.launch.py
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/urdf/bunai.urdf
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config/ydlidar_cartographer.rviz
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config/cartgrapher.lua
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/worlds/bunai.world
+/home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/map/map.yaml
+/home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/map/map.pbstream
+/home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/nav2/navigation.yaml
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/package_run_dependencies/Bunai
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/parent_prefix_path/Bunai
 /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/ament_prefix_path.sh

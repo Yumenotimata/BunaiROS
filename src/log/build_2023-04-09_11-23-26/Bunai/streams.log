@@ -1,0 +1,113 @@
+[0.102s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Bunai -- -j2 -l2
+[0.249s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.378s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.834s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.065s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.077s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.106s] -- Searching for dependencies of ignition-math6
+[2.117s] -- Looking for OGRE...
+[2.152s] -- Found Ogre Ghadamon (1.9.0)
+[2.156s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.220s] -- Looking for OGRE_Paging...
+[2.221s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.226s] -- Looking for OGRE_Terrain...
+[2.227s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.228s] -- Looking for OGRE_Property...
+[2.229s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.234s] -- Looking for OGRE_RTShaderSystem...
+[2.235s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.236s] -- Looking for OGRE_Volume...
+[2.237s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.238s] -- Looking for OGRE_Overlay...
+[2.239s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.866s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.876s] -- Looking for ignition-transport8 -- found version 8.4.0
+[2.879s] -- Searching for dependencies of ignition-transport8
+[2.955s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[3.011s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.029s] -- Checking for module 'libzmq >= 4'
+[3.106s] --   Found libzmq , version 4.3.2
+[3.260s] -- Checking for module 'uuid'
+[3.318s] --   Found uuid, version 2.34.0
+[3.483s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.485s] -- Searching for dependencies of ignition-msgs5
+[3.566s] -- Looking for ignition-math6 -- found version 6.13.0
+[3.608s] -- Checking for module 'tinyxml2'
+[3.679s] --   Found tinyxml2, version 6.2.0
+[3.828s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.832s] -- Looking for ignition-common3 -- found version 3.15.1
+[3.834s] -- Searching for dependencies of ignition-common3
+[3.838s] -- Looking for dlfcn.h - found
+[3.838s] -- Looking for libdl - found
+[3.889s] -- Searching for <ignition-common3> component [graphics]
+[3.892s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[3.894s] -- Searching for dependencies of ignition-common3-graphics
+[3.896s] -- Looking for ignition-math6 -- found version 6.13.0
+[3.907s] -- Looking for ignition-fuel_tools4 -- found version 4.8.2
+[3.909s] -- Searching for dependencies of ignition-fuel_tools4
+[4.044s] -- Checking for module 'jsoncpp'
+[4.131s] --   Found jsoncpp, version 1.7.4
+[4.305s] -- Checking for module 'libzip'
+[4.373s] --   Found libzip, version 1.5.1
+[4.525s] -- Looking for ignition-common3 -- found version 3.15.1
+[4.526s] -- Looking for ignition-math6 -- found version 6.13.0
+[4.528s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[4.544s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.743s] WARNING: Package name "Bunai" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[4.845s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.852s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.853s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kouyayamaoka/ros2_ws/src/Bunai/include>
+[4.853s] -- Configured cppcheck exclude dirs and/or files: 
+[4.864s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.864s] -- Configured cpplint exclude dirs and/or files: 
+[4.867s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.869s] -- Added test 'lint_cmake' to check CMake code style
+[4.874s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.879s] -- Added test 'uncrustify' to check C / C++ code style
+[4.880s] -- Configured uncrustify additional arguments: 
+[4.884s] -- Added test 'xmllint' to check XML markup files
+[4.896s] -- Configuring done
+[4.925s] -- Generating done
+[4.934s] -- Build files have been written to: /home/kouyayamaoka/ros2_ws/src/build/Bunai
+[5.080s] [100%] Built target estimate
+[5.119s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kouyayamaoka/ros2_ws/src/build/Bunai -- -j2 -l2
+[5.413s] Invoking command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/Bunai
+[5.460s] -- Install configuration: ""
+[5.460s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/rviz
+[5.461s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/rviz/navigation.rviz
+[5.462s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/rviz/bunai.rviz
+[5.463s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch
+[5.465s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/localization.launch.py
+[5.508s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/rviz.launch.py
+[5.509s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/cartographer.launch.py
+[5.509s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/navigation.launch.py
+[5.509s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/launch/Bunai.launch.py
+[5.509s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/urdf
+[5.510s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/urdf/bunai.urdf
+[5.510s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config
+[5.510s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config/ydlidar_cartographer.rviz
+[5.511s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/config/cartgrapher.lua
+[5.511s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/worlds
+[5.511s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/worlds/bunai.world
+[5.511s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/map
+[5.512s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/map/map.yaml
+[5.512s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/map/map.pbstream
+[5.512s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/nav2
+[5.513s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/nav2/navigation.yaml
+[5.515s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/test
+[5.518s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/package_run_dependencies/Bunai
+[5.518s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/parent_prefix_path/Bunai
+[5.518s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/ament_prefix_path.sh
+[5.518s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/ament_prefix_path.dsv
+[5.519s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/path.sh
+[5.519s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/environment/path.dsv
+[5.519s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.bash
+[5.520s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.sh
+[5.521s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.zsh
+[5.524s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/local_setup.dsv
+[5.524s] -- Installing: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/package.dsv
+[5.525s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/ament_index/resource_index/packages/Bunai
+[5.526s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/cmake/BunaiConfig.cmake
+[5.526s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/cmake/BunaiConfig-version.cmake
+[5.529s] -- Up-to-date: /home/kouyayamaoka/ros2_ws/src/install/Bunai/share/Bunai/package.xml
+[5.530s] Invoked command in '/home/kouyayamaoka/ros2_ws/src/build/Bunai' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kouyayamaoka/ros2_ws/src/build/Bunai
